@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "FIVES",
+    "status": "ready",
+    "root": "/Users/tongyue/Documents/ppf/papers/data/FIVES",
+    "files": 1602,
+    "images": 1600,
+    "labels_or_masks": 0,
+    "finite_sample": true,
+    "unique_dimensions_sample": [
+      "(2048, 2048, 3)",
+      "(2048, 2048, 4)"
+    ],
+    "sha256_first_image": "c1091ca6850fcbee9119a781b7118dc155be730d334c8910fc47059e7994b5a9"
+  },
+  {
+    "dataset": "RAV",
+    "status": "ready",
+    "root": "/Users/tongyue/Documents/ppf/papers/data/external/RAV/dataset",
+    "files": 412,
+    "images": 412,
+    "labels_or_masks": 0,
+    "finite_sample": true,
+    "unique_dimensions_sample": [
+      "(1024, 1024, 3)"
+    ],
+    "sha256_first_image": "44c8694fe31c7d3fcb07cba3dee7d9096d18e3c4eaf82c927cf67c69bb9186d9"
+  },
+  {
+    "dataset": "STARE",
+    "status": "ready",
+    "root": "/Users/tongyue/Documents/ppf/papers/data/external/STARE",
+    "files": 442,
+    "images": 397,
+    "labels_or_masks": 42,
+    "finite_sample": true,
+    "unique_dimensions_sample": [
+      "(605, 700, 3)"
+    ],
+    "sha256_first_image": "a128e0c59d984e542a86303046cb38d305b9c3b64b9b0c1582f376713650ac4b"
+  }
+]

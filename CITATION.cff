@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use RMDB, cite this repository and the accompanying manuscript draft."
+title: "RMDB: Dual Readouts and Reliability Gating for Retinal Vascular Phenotyping"
+type: software
+version: 1.0.0
+date-released: 2026-08-14
+repository-code: "https://github.com/kobayashi0512/RMDB"
+authors:
+  - family-names: "Tongyue"
+    given-names: ""
+preferred-citation:
+  type: manuscript
+  title: "Pixel Accuracy Is Not Biomarker Validity: RMDB–BiRAP, a Framework with Dual Readouts and Reliability Gating for Retinal Vascular Phenotyping Across Domains"
+  year: 2026
+

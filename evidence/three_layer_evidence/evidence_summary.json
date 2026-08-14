@@ -1,0 +1,712 @@
+{
+  "title": "RMDB-BiRAP three-layer evidence chain",
+  "scope": "AFIO/Mendeley measurement; FIVES/DRIVE/STARE migration; BRSET/mBRSET exploratory clinical association",
+  "cimt_fixed_validation_or_test_used": false,
+  "rows": [
+    {
+      "layer": "phenotype_accuracy",
+      "dataset": "AFIO/Mendeley",
+      "evidence": "public annotation inventory",
+      "n": 100,
+      "metric": "images",
+      "value": 100,
+      "ci95": "",
+      "status": "measurement-only; outcome-blind"
+    },
+    {
+      "layer": "phenotype_accuracy",
+      "dataset": "AFIO/Mendeley",
+      "evidence": "paired vessel masks",
+      "n": 100,
+      "metric": "paired_vessel_masks",
+      "value": 100,
+      "ci95": "",
+      "status": "complete"
+    },
+    {
+      "layer": "phenotype_accuracy",
+      "dataset": "AFIO/Mendeley",
+      "evidence": "paired A/V masks",
+      "n": 100,
+      "metric": "paired_av_masks",
+      "value": 99,
+      "ci95": "",
+      "status": "one source image missing; not patched"
+    },
+    {
+      "layer": "phenotype_accuracy",
+      "dataset": "AFIO/Mendeley",
+      "evidence": "frozen RMDB-BiRAP extraction",
+      "n": 100,
+      "metric": "completed_eyes",
+      "value": 100,
+      "ci95": "",
+      "status": "label-blind; complete"
+    },
+    {
+      "layer": "phenotype_accuracy",
+      "dataset": "RAV",
+      "evidence": "frozen vessel transfer",
+      "n": 206,
+      "metric": "vessel_dice_mean",
+      "value": 0.8645425886853667,
+      "ci95": "",
+      "status": "label-blind transfer"
+    },
+    {
+      "layer": "phenotype_accuracy",
+      "dataset": "RAV",
+      "evidence": "frozen vessel transfer",
+      "n": 206,
+      "metric": "vessel_iou_mean",
+      "value": 0.7700606337196039,
+      "ci95": "",
+      "status": "label-blind transfer"
+    },
+    {
+      "layer": "phenotype_accuracy",
+      "dataset": "FundusAVSeg",
+      "evidence": "frozen vessel transfer",
+      "n": 100,
+      "metric": "vessel_dice_mean",
+      "value": 0.5901466256119462,
+      "ci95": "",
+      "status": "label-blind transfer"
+    },
+    {
+      "layer": "phenotype_accuracy",
+      "dataset": "FundusAVSeg",
+      "evidence": "frozen vessel transfer",
+      "n": 100,
+      "metric": "vessel_iou_mean",
+      "value": 0.46282831288286824,
+      "ci95": "",
+      "status": "label-blind transfer"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "fives",
+      "evidence": "frozen VascX vessel migration",
+      "n": 200,
+      "metric": "vessel_dice_mean",
+      "value": 0.35647420749523484,
+      "ci95": "",
+      "status": "negative/weak; no retuning"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "stare",
+      "evidence": "frozen VascX vessel migration",
+      "n": 20,
+      "metric": "vessel_dice_mean",
+      "value": 0.16674035630235443,
+      "ci95": "",
+      "status": "negative/weak; no retuning"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "FIVES",
+      "evidence": "frozen RMDB-BiRAP phenotype extraction",
+      "n": 200,
+      "metric": "completed_eyes",
+      "value": 200,
+      "ci95": "",
+      "status": "label-blind; complete"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "STARE",
+      "evidence": "public AH labels",
+      "n": 20,
+      "metric": "annotated_images",
+      "value": 20,
+      "ci95": "",
+      "status": "20 AH labels; one label per image subset; weak migration"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "DRIVE",
+      "evidence": "official access status",
+      "n": "",
+      "metric": "download",
+      "value": "not run",
+      "ci95": "",
+      "status": "official page login-restricted; no mirror bypass"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "CIMT train vs mBRSET",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 7729,
+      "metric": "domain_AUROC",
+      "value": 0.995828694870046,
+      "ci95": "0.994174\u20130.997291",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "CIMT train vs AFIO",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 5306,
+      "metric": "domain_AUROC",
+      "value": 0.9411678832116788,
+      "ci95": "0.920898\u20130.958131",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "CIMT train vs RAV",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 5412,
+      "metric": "domain_AUROC",
+      "value": 0.8663631209694564,
+      "ci95": "0.838205\u20130.892299",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "CIMT train vs Fundus-AVSeg",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 5306,
+      "metric": "domain_AUROC",
+      "value": 0.9604706108336536,
+      "ci95": "0.941210\u20130.976565",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "mBRSET vs AFIO",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 2623,
+      "metric": "domain_AUROC",
+      "value": 0.993103448275862,
+      "ci95": "0.978894\u20130.999923",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "mBRSET vs RAV",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 2729,
+      "metric": "domain_AUROC",
+      "value": 0.996155755399836,
+      "ci95": "0.991421\u20130.999725",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "mBRSET vs Fundus-AVSeg",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 2623,
+      "metric": "domain_AUROC",
+      "value": 1.0,
+      "ci95": "1.000000\u20131.000000",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "AFIO vs RAV",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 306,
+      "metric": "domain_AUROC",
+      "value": 0.7257281553398058,
+      "ci95": "0.668982\u20130.781060",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "AFIO vs Fundus-AVSeg",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 200,
+      "metric": "domain_AUROC",
+      "value": 0.9341,
+      "ci95": "0.897984\u20130.963076",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "cross_domain_robustness",
+      "dataset": "RAV vs Fundus-AVSeg",
+      "evidence": "outcome-blind pairwise transport stress test",
+      "n": 306,
+      "metric": "domain_AUROC",
+      "value": 0.9300485436893204,
+      "ci95": "0.902649\u20130.957864",
+      "status": "measurement-domain separability; not clinical validation"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension strict-disc",
+      "evidence": "R0_clinical",
+      "n": 1105,
+      "metric": "AUROC",
+      "value": 0.6616716682634827,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension strict-disc",
+      "evidence": "R0_clinical",
+      "n": 1105,
+      "metric": "AUPRC",
+      "value": 0.7967298991355896,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension strict-disc",
+      "evidence": "R0_clinical",
+      "n": 1105,
+      "metric": "BRIER",
+      "value": 0.2359137632962514,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension strict-disc",
+      "evidence": "R2_clinical_lowdim_vascular",
+      "n": 1105,
+      "metric": "AUROC",
+      "value": 0.6668382253964986,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension strict-disc",
+      "evidence": "R2_clinical_lowdim_vascular",
+      "n": 1105,
+      "metric": "AUPRC",
+      "value": 0.7900415335247425,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension strict-disc",
+      "evidence": "R2_clinical_lowdim_vascular",
+      "n": 1105,
+      "metric": "BRIER",
+      "value": 0.23061072837082106,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension strict-disc",
+      "evidence": "R3_full_lowdim_vascular",
+      "n": 1105,
+      "metric": "AUROC",
+      "value": 0.6635086663552217,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension strict-disc",
+      "evidence": "R3_full_lowdim_vascular",
+      "n": 1105,
+      "metric": "AUPRC",
+      "value": 0.7863151663580321,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension strict-disc",
+      "evidence": "R3_full_lowdim_vascular",
+      "n": 1105,
+      "metric": "BRIER",
+      "value": 0.23112326201601813,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension no-DR",
+      "evidence": "R0_clinical",
+      "n": 882,
+      "metric": "AUROC",
+      "value": 0.6773879081197653,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension no-DR",
+      "evidence": "R0_clinical",
+      "n": 882,
+      "metric": "AUPRC",
+      "value": 0.8053974833644645,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension no-DR",
+      "evidence": "R0_clinical",
+      "n": 882,
+      "metric": "BRIER",
+      "value": 0.23285310743101748,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension no-DR",
+      "evidence": "R2_clinical_lowdim_vascular",
+      "n": 882,
+      "metric": "AUROC",
+      "value": 0.6770713175184313,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension no-DR",
+      "evidence": "R2_clinical_lowdim_vascular",
+      "n": 882,
+      "metric": "AUPRC",
+      "value": 0.8063283873335296,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension no-DR",
+      "evidence": "R2_clinical_lowdim_vascular",
+      "n": 882,
+      "metric": "BRIER",
+      "value": 0.22781789042995748,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension no-DR",
+      "evidence": "R3_full_lowdim_vascular",
+      "n": 882,
+      "metric": "AUROC",
+      "value": 0.6742439440292893,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension no-DR",
+      "evidence": "R3_full_lowdim_vascular",
+      "n": 882,
+      "metric": "AUPRC",
+      "value": 0.8046649147605209,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET hypertension no-DR",
+      "evidence": "R3_full_lowdim_vascular",
+      "n": 882,
+      "metric": "BRIER",
+      "value": 0.22824677867325044,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET vascular disease",
+      "evidence": "M0_clinical",
+      "n": 1268,
+      "metric": "AUROC",
+      "value": 0.5564005069708491,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET vascular disease",
+      "evidence": "M0_clinical",
+      "n": 1268,
+      "metric": "AUPRC",
+      "value": 0.20782374620254107,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET vascular disease",
+      "evidence": "M0_clinical",
+      "n": 1268,
+      "metric": "BRIER",
+      "value": 0.246831588220457,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET vascular disease",
+      "evidence": "M1_clinical_ocular",
+      "n": 1268,
+      "metric": "AUROC",
+      "value": 0.5239446908886073,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET vascular disease",
+      "evidence": "M1_clinical_ocular",
+      "n": 1268,
+      "metric": "AUPRC",
+      "value": 0.19037267425361443,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET vascular disease",
+      "evidence": "M1_clinical_ocular",
+      "n": 1268,
+      "metric": "BRIER",
+      "value": 0.24875887897386234,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET vascular disease",
+      "evidence": "M2_clinical_vascular",
+      "n": 1268,
+      "metric": "AUROC",
+      "value": 0.49937068722715117,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET vascular disease",
+      "evidence": "M2_clinical_vascular",
+      "n": 1268,
+      "metric": "AUPRC",
+      "value": 0.2028548831119641,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET vascular disease",
+      "evidence": "M2_clinical_vascular",
+      "n": 1268,
+      "metric": "BRIER",
+      "value": 0.24709931225388193,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET diabetic foot",
+      "evidence": "M0_clinical",
+      "n": 1260,
+      "metric": "AUROC",
+      "value": 0.6055086120254611,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET diabetic foot",
+      "evidence": "M0_clinical",
+      "n": 1260,
+      "metric": "AUPRC",
+      "value": 0.19725133240566983,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET diabetic foot",
+      "evidence": "M0_clinical",
+      "n": 1260,
+      "metric": "BRIER",
+      "value": 0.2409166137577366,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET diabetic foot",
+      "evidence": "M1_clinical_ocular",
+      "n": 1260,
+      "metric": "AUROC",
+      "value": 0.6139238823510643,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET diabetic foot",
+      "evidence": "M1_clinical_ocular",
+      "n": 1260,
+      "metric": "AUPRC",
+      "value": 0.22130013267125745,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET diabetic foot",
+      "evidence": "M1_clinical_ocular",
+      "n": 1260,
+      "metric": "BRIER",
+      "value": 0.23792610943383266,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET diabetic foot",
+      "evidence": "M2_clinical_vascular",
+      "n": 1260,
+      "metric": "AUROC",
+      "value": 0.5547005865430124,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET diabetic foot",
+      "evidence": "M2_clinical_vascular",
+      "n": 1260,
+      "metric": "AUPRC",
+      "value": 0.1751179699344211,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET diabetic foot",
+      "evidence": "M2_clinical_vascular",
+      "n": 1260,
+      "metric": "BRIER",
+      "value": 0.2347060664012376,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET acute myocardial infarction",
+      "evidence": "M0_clinical",
+      "n": 1266,
+      "metric": "AUROC",
+      "value": 0.5719265445904389,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET acute myocardial infarction",
+      "evidence": "M0_clinical",
+      "n": 1266,
+      "metric": "AUPRC",
+      "value": 0.09651016626483727,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET acute myocardial infarction",
+      "evidence": "M0_clinical",
+      "n": 1266,
+      "metric": "BRIER",
+      "value": 0.24399154793707342,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET acute myocardial infarction",
+      "evidence": "M1_clinical_ocular",
+      "n": 1266,
+      "metric": "AUROC",
+      "value": 0.585791165781381,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET acute myocardial infarction",
+      "evidence": "M1_clinical_ocular",
+      "n": 1266,
+      "metric": "AUPRC",
+      "value": 0.10554739166538518,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET acute myocardial infarction",
+      "evidence": "M1_clinical_ocular",
+      "n": 1266,
+      "metric": "BRIER",
+      "value": 0.24257909867758456,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET acute myocardial infarction",
+      "evidence": "M2_clinical_vascular",
+      "n": 1266,
+      "metric": "AUROC",
+      "value": 0.518582261671792,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET acute myocardial infarction",
+      "evidence": "M2_clinical_vascular",
+      "n": 1266,
+      "metric": "AUPRC",
+      "value": 0.08121675105922586,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET acute myocardial infarction",
+      "evidence": "M2_clinical_vascular",
+      "n": 1266,
+      "metric": "BRIER",
+      "value": 0.2290940030356612,
+      "ci95": "",
+      "status": "exploratory internal patient-level CV"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET permutation negative control",
+      "evidence": "R0_clinical",
+      "n": 1276,
+      "metric": "observed_AUROC",
+      "value": 0.6648321524966261,
+      "ci95": "",
+      "status": "200 permutations; p=0.004975124378109453"
+    },
+    {
+      "layer": "clinical_association",
+      "dataset": "mBRSET permutation negative control",
+      "evidence": "R2_reliable_core",
+      "n": 1276,
+      "metric": "observed_AUROC",
+      "value": 0.6662931366878735,
+      "ci95": "",
+      "status": "200 permutations; p=0.004975124378109453"
+    }
+  ],
+  "interpretation": {
+    "layer_1": "AFIO establishes outcome-blind structural annotation compatibility; RAV and Fundus-AVSeg provide transfer scores.",
+    "layer_2": "FIVES and STARE expose domain-shift degradation of the frozen structure reader; DRIVE remains access-blocked.",
+    "layer_3": "mBRSET associations are patient-level exploratory internal CV only; no independent high-resolution clinical confirmation."
+  }
+}

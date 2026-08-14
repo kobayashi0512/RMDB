@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "artifact": "fundus_qc_gate",
+      "path": "artifacts/fundus_avseg_external_validation/blind_qc_gate/metrics.json",
+      "exists": true,
+      "expected_n": 100,
+      "observed_n": 100,
+      "count_pass": true,
+      "cimt_test_used": false
+    },
+    {
+      "artifact": "mbrset_permutation",
+      "path": "artifacts/mbrset_external/permutation_negative_control/metrics.json",
+      "exists": true,
+      "expected_n": 1276,
+      "observed_n": 1276,
+      "count_pass": true,
+      "cimt_test_used": false
+    },
+    {
+      "artifact": "e12",
+      "path": "artifacts/e12_repeatability_gated_centile_full/metrics.json",
+      "exists": true,
+      "expected_n": 2603,
+      "observed_n": 2603,
+      "count_pass": true,
+      "cimt_test_used": false
+    },
+    {
+      "artifact": "qc_transport",
+      "path": "artifacts/quality_overlap_transport_rerun/metadata.json",
+      "exists": true,
+      "expected_n": null,
+      "observed_n": null,
+      "count_pass": true,
+      "cimt_test_used": false
+    }
+  ],
+  "complete": true
+}

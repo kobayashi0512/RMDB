@@ -1,0 +1,6 @@
+cohort,source,raw_rows,patient_eyes,patients,repeat_views_collapsed,complete_core_fraction
+CIMT train,artifacts/cimt_dual_readout_development/phenotypes_v2/per_eye.csv,5206,5206,2603,0,1.0
+mBRSET,artifacts/mbrset_external/phenotypes/per_eye.csv,4884,2523,1287,2361,1.0
+AFIO,artifacts/afio_mendeley/phenotypes/per_eye.csv,100,100,100,0,1.0
+RAV,artifacts/external_transfer/RAV/phenotypes/per_eye.csv,206,206,206,0,1.0
+Fundus-AVSeg,artifacts/external_transfer/FundusAVSeg/phenotypes/per_eye.csv,100,100,100,0,1.0

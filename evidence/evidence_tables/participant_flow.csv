@@ -1,0 +1,6 @@
+stage,patients,images_or_pairs,exclusions_or_qc
+CIMT development,2603,5206,24 expected disc-localization failures; global features retained
+CIMT frozen validation,200,400,One-shot E9 artifact; test not used in locked dual-readout analyses
+mBRSET manifest,1287,4884,All images retained with explicit QC flags
+mBRSET repeatability,1287,2359,Same-eye repeat pairs
+mBRSET hypertension complete-case,1276,912,Positive count shown in images_or_pairs field

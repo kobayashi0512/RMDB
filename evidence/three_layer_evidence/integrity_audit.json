@@ -1,0 +1,136 @@
+{
+  "cimt_fixed_validation_or_test_read": false,
+  "afio": {
+    "audit": {
+      "source": "Mendeley Data 3csr652p9y, version 2",
+      "license": "CC BY 4.0",
+      "outcome_blind": true,
+      "files": 600,
+      "images": 100,
+      "unique_image_ids": 100,
+      "annotation_files": 500,
+      "all_files_finite_or_nonpixel": true,
+      "paired_vessel_masks": 100,
+      "paired_av_masks": 99,
+      "paired_illustrator_annotations": 100,
+      "complete_for_measurement": true
+    },
+    "phenotypes": {
+      "protocol": "CIMT_\u53cc\u8bfb\u51fa\u8868\u578b\u9501\u5b9a\u534f\u8bae.md",
+      "split": "external_afio",
+      "expected_eyes": 100,
+      "available_eyes": 100,
+      "completed_eyes": 100,
+      "patients": 100,
+      "missing_inputs": {
+        "rgb": 0,
+        "disc": 0,
+        "logits": 0,
+        "occupancy": 0
+      },
+      "size": 512,
+      "gate_center": 0.35,
+      "gate_temperature": 0.2,
+      "threshold": 0.525,
+      "label_blind": true,
+      "complete": true
+    },
+    "logits": {
+      "files": 100,
+      "nonempty": 100,
+      "finite": 100,
+      "shapes": {
+        "(1024, 1024, 4)": 100
+      }
+    },
+    "occupancy": {
+      "files": 100,
+      "nonempty": 100,
+      "finite": 100,
+      "shapes": {
+        "(512, 512)": 100
+      }
+    }
+  },
+  "fives": {
+    "migration_metadata": {
+      "patients": 200,
+      "eyes": 200,
+      "device": "mps",
+      "av_weights": "../third_party/vascx_weights/av_july24.pt",
+      "av_sha256": "b11d4e26ada8e1f0f279747afa5f4ef348d9d7350c4bf80e7ae6b5ac8d0b95b5",
+      "disc_model": "Eyened/vascx:disc/disc_july24.pt",
+      "fovea_model": "Eyened/vascx:fovea/fovea_july24.pt",
+      "preprocessed_resolution": 1024,
+      "smoke_test_limit": null,
+      "disc_segmentation_failures": 0,
+      "disc_center_fallback": "eye-specific median disc-to-fovea displacement",
+      "complete": true
+    },
+    "phenotypes": {
+      "protocol": "CIMT_\u53cc\u8bfb\u51fa\u8868\u578b\u9501\u5b9a\u534f\u8bae.md",
+      "split": "external_fives",
+      "expected_eyes": 200,
+      "available_eyes": 200,
+      "completed_eyes": 200,
+      "patients": 200,
+      "missing_inputs": {
+        "rgb": 0,
+        "disc": 0,
+        "logits": 0,
+        "occupancy": 0
+      },
+      "size": 512,
+      "gate_center": 0.35,
+      "gate_temperature": 0.2,
+      "threshold": 0.525,
+      "label_blind": true,
+      "complete": true
+    },
+    "logits": {
+      "files": 200,
+      "nonempty": 200,
+      "finite": 200,
+      "shapes": {
+        "(1024, 1024, 4)": 200
+      }
+    },
+    "occupancy": {
+      "files": 200,
+      "nonempty": 200,
+      "finite": 200,
+      "shapes": {
+        "(512, 512)": 200
+      }
+    }
+  },
+  "stare": {
+    "logits": {
+      "files": 397,
+      "nonempty": 397,
+      "finite": 397,
+      "shapes": {
+        "(1024, 1024, 4)": 397
+      }
+    },
+    "occupancy": {
+      "files": 397,
+      "nonempty": 397,
+      "finite": 397,
+      "shapes": {
+        "(512, 512)": 397
+      }
+    },
+    "scored": {
+      "dataset": "stare",
+      "images_scored": 20,
+      "vessel_dice_mean": 0.16674035630235443,
+      "vessel_dice_median": 0.17165533914771264
+    }
+  },
+  "clinical": {
+    "mbrset_hypertension": true,
+    "mbrset_hypertension_no_dr": true,
+    "permutation_negative_control": true
+  }
+}

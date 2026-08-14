@@ -1,0 +1,6 @@
+{
+  "raw_cimt_manifest_read": false,
+  "cimt_test_read": false,
+  "validation_source": "existing locked E9 prediction artifact only",
+  "note": "These tables are manuscript-reporting artifacts, not new model selection."
+}

@@ -1,0 +1,23 @@
+domain,priority,exam,requested_item,purpose,required_for_primary
+linkage,required,5,de-identified stable participant ID,patient-level linkage,yes
+retina,required,5,raw de-identified full-resolution pixels,end-to-end external validation,yes
+retina,required,5,right/left laterality,correct bilateral pairing,yes
+retina,required,5,Field 1 disc-centered indicator,standardized peripapillary phenotype,yes
+retina,optional,5,Field 2 macula-centered image,secondary spatial phenotype,no
+retina,required,5,photo completeness and gradability,locked QC and flowchart,yes
+retina,required,5,acquisition date,retina-CIMT time-gap audit,yes
+retina,preferred,5,camera and field centre,domain-shift subgroup analysis,no
+retina,preferred,5,CRAE and CRVE,mechanism concordance analysis,no
+cimt,required,5,continuous common carotid far-wall mean IMT in mm,primary outcome,yes
+cimt,preferred,5,left and right segment-specific IMT,laterality sensitivity,no
+cimt,preferred,5,maximum IMT and bulb/internal carotid IMT,secondary outcome,no
+cimt,required,5,scan/reading quality and missingness flags,quality and selection-bias audit,yes
+cimt,required,5,ultrasound date,retina-CIMT time-gap audit,yes
+clinical,required,5,age at retinal exam,locked conditional target,yes
+clinical,required,5,sex,locked conditional target,yes
+clinical,required,5,race/ethnicity,transportability subgroup analysis,yes
+clinical,preferred,5,field centre,site heterogeneity analysis,no
+clinical,optional,5,smoking blood pressure diabetes BMI lipids medications,descriptive sensitivity only,no
+retina,secondary,2,raw bilateral Field 1 and Field 2 pixels,temporal-gap sensitivity,no
+cimt,secondary,1/2,nearest continuous CIMT and exam date,temporal-gap sensitivity,no
+

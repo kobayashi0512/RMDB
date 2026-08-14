@@ -1,0 +1,71 @@
+layer,dataset,evidence,n,metric,value,ci95,status
+phenotype_accuracy,AFIO/Mendeley,public annotation inventory,100,images,100,,measurement-only; outcome-blind
+phenotype_accuracy,AFIO/Mendeley,paired vessel masks,100,paired_vessel_masks,100,,complete
+phenotype_accuracy,AFIO/Mendeley,paired A/V masks,100,paired_av_masks,99,,one source image missing; not patched
+phenotype_accuracy,AFIO/Mendeley,frozen RMDB-BiRAP extraction,100,completed_eyes,100,,label-blind; complete
+phenotype_accuracy,RAV,frozen vessel transfer,206,vessel_dice_mean,0.8645425886853667,,label-blind transfer
+phenotype_accuracy,RAV,frozen vessel transfer,206,vessel_iou_mean,0.7700606337196039,,label-blind transfer
+phenotype_accuracy,FundusAVSeg,frozen vessel transfer,100,vessel_dice_mean,0.5901466256119462,,label-blind transfer
+phenotype_accuracy,FundusAVSeg,frozen vessel transfer,100,vessel_iou_mean,0.46282831288286824,,label-blind transfer
+cross_domain_robustness,fives,frozen VascX vessel migration,200,vessel_dice_mean,0.35647420749523484,,negative/weak; no retuning
+cross_domain_robustness,stare,frozen VascX vessel migration,20,vessel_dice_mean,0.16674035630235443,,negative/weak; no retuning
+cross_domain_robustness,FIVES,frozen RMDB-BiRAP phenotype extraction,200,completed_eyes,200,,label-blind; complete
+cross_domain_robustness,STARE,public AH labels,20,annotated_images,20,,20 AH labels; one label per image subset; weak migration
+cross_domain_robustness,DRIVE,official access status,,download,not run,,official page login-restricted; no mirror bypass
+cross_domain_robustness,CIMT train vs mBRSET,outcome-blind pairwise transport stress test,7729,domain_AUROC,0.995828694870046,0.994174–0.997291,measurement-domain separability; not clinical validation
+cross_domain_robustness,CIMT train vs AFIO,outcome-blind pairwise transport stress test,5306,domain_AUROC,0.9411678832116788,0.920898–0.958131,measurement-domain separability; not clinical validation
+cross_domain_robustness,CIMT train vs RAV,outcome-blind pairwise transport stress test,5412,domain_AUROC,0.8663631209694564,0.838205–0.892299,measurement-domain separability; not clinical validation
+cross_domain_robustness,CIMT train vs Fundus-AVSeg,outcome-blind pairwise transport stress test,5306,domain_AUROC,0.9604706108336536,0.941210–0.976565,measurement-domain separability; not clinical validation
+cross_domain_robustness,mBRSET vs AFIO,outcome-blind pairwise transport stress test,2623,domain_AUROC,0.993103448275862,0.978894–0.999923,measurement-domain separability; not clinical validation
+cross_domain_robustness,mBRSET vs RAV,outcome-blind pairwise transport stress test,2729,domain_AUROC,0.996155755399836,0.991421–0.999725,measurement-domain separability; not clinical validation
+cross_domain_robustness,mBRSET vs Fundus-AVSeg,outcome-blind pairwise transport stress test,2623,domain_AUROC,1.0,1.000000–1.000000,measurement-domain separability; not clinical validation
+cross_domain_robustness,AFIO vs RAV,outcome-blind pairwise transport stress test,306,domain_AUROC,0.7257281553398058,0.668982–0.781060,measurement-domain separability; not clinical validation
+cross_domain_robustness,AFIO vs Fundus-AVSeg,outcome-blind pairwise transport stress test,200,domain_AUROC,0.9341,0.897984–0.963076,measurement-domain separability; not clinical validation
+cross_domain_robustness,RAV vs Fundus-AVSeg,outcome-blind pairwise transport stress test,306,domain_AUROC,0.9300485436893204,0.902649–0.957864,measurement-domain separability; not clinical validation
+clinical_association,mBRSET hypertension strict-disc,R0_clinical,1105,AUROC,0.6616716682634827,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension strict-disc,R0_clinical,1105,AUPRC,0.7967298991355896,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension strict-disc,R0_clinical,1105,BRIER,0.2359137632962514,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension strict-disc,R2_clinical_lowdim_vascular,1105,AUROC,0.6668382253964986,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension strict-disc,R2_clinical_lowdim_vascular,1105,AUPRC,0.7900415335247425,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension strict-disc,R2_clinical_lowdim_vascular,1105,BRIER,0.23061072837082106,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension strict-disc,R3_full_lowdim_vascular,1105,AUROC,0.6635086663552217,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension strict-disc,R3_full_lowdim_vascular,1105,AUPRC,0.7863151663580321,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension strict-disc,R3_full_lowdim_vascular,1105,BRIER,0.23112326201601813,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension no-DR,R0_clinical,882,AUROC,0.6773879081197653,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension no-DR,R0_clinical,882,AUPRC,0.8053974833644645,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension no-DR,R0_clinical,882,BRIER,0.23285310743101748,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension no-DR,R2_clinical_lowdim_vascular,882,AUROC,0.6770713175184313,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension no-DR,R2_clinical_lowdim_vascular,882,AUPRC,0.8063283873335296,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension no-DR,R2_clinical_lowdim_vascular,882,BRIER,0.22781789042995748,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension no-DR,R3_full_lowdim_vascular,882,AUROC,0.6742439440292893,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension no-DR,R3_full_lowdim_vascular,882,AUPRC,0.8046649147605209,,exploratory internal patient-level CV
+clinical_association,mBRSET hypertension no-DR,R3_full_lowdim_vascular,882,BRIER,0.22824677867325044,,exploratory internal patient-level CV
+clinical_association,mBRSET vascular disease,M0_clinical,1268,AUROC,0.5564005069708491,,exploratory internal patient-level CV
+clinical_association,mBRSET vascular disease,M0_clinical,1268,AUPRC,0.20782374620254107,,exploratory internal patient-level CV
+clinical_association,mBRSET vascular disease,M0_clinical,1268,BRIER,0.246831588220457,,exploratory internal patient-level CV
+clinical_association,mBRSET vascular disease,M1_clinical_ocular,1268,AUROC,0.5239446908886073,,exploratory internal patient-level CV
+clinical_association,mBRSET vascular disease,M1_clinical_ocular,1268,AUPRC,0.19037267425361443,,exploratory internal patient-level CV
+clinical_association,mBRSET vascular disease,M1_clinical_ocular,1268,BRIER,0.24875887897386234,,exploratory internal patient-level CV
+clinical_association,mBRSET vascular disease,M2_clinical_vascular,1268,AUROC,0.49937068722715117,,exploratory internal patient-level CV
+clinical_association,mBRSET vascular disease,M2_clinical_vascular,1268,AUPRC,0.2028548831119641,,exploratory internal patient-level CV
+clinical_association,mBRSET vascular disease,M2_clinical_vascular,1268,BRIER,0.24709931225388193,,exploratory internal patient-level CV
+clinical_association,mBRSET diabetic foot,M0_clinical,1260,AUROC,0.6055086120254611,,exploratory internal patient-level CV
+clinical_association,mBRSET diabetic foot,M0_clinical,1260,AUPRC,0.19725133240566983,,exploratory internal patient-level CV
+clinical_association,mBRSET diabetic foot,M0_clinical,1260,BRIER,0.2409166137577366,,exploratory internal patient-level CV
+clinical_association,mBRSET diabetic foot,M1_clinical_ocular,1260,AUROC,0.6139238823510643,,exploratory internal patient-level CV
+clinical_association,mBRSET diabetic foot,M1_clinical_ocular,1260,AUPRC,0.22130013267125745,,exploratory internal patient-level CV
+clinical_association,mBRSET diabetic foot,M1_clinical_ocular,1260,BRIER,0.23792610943383266,,exploratory internal patient-level CV
+clinical_association,mBRSET diabetic foot,M2_clinical_vascular,1260,AUROC,0.5547005865430124,,exploratory internal patient-level CV
+clinical_association,mBRSET diabetic foot,M2_clinical_vascular,1260,AUPRC,0.1751179699344211,,exploratory internal patient-level CV
+clinical_association,mBRSET diabetic foot,M2_clinical_vascular,1260,BRIER,0.2347060664012376,,exploratory internal patient-level CV
+clinical_association,mBRSET acute myocardial infarction,M0_clinical,1266,AUROC,0.5719265445904389,,exploratory internal patient-level CV
+clinical_association,mBRSET acute myocardial infarction,M0_clinical,1266,AUPRC,0.09651016626483727,,exploratory internal patient-level CV
+clinical_association,mBRSET acute myocardial infarction,M0_clinical,1266,BRIER,0.24399154793707342,,exploratory internal patient-level CV
+clinical_association,mBRSET acute myocardial infarction,M1_clinical_ocular,1266,AUROC,0.585791165781381,,exploratory internal patient-level CV
+clinical_association,mBRSET acute myocardial infarction,M1_clinical_ocular,1266,AUPRC,0.10554739166538518,,exploratory internal patient-level CV
+clinical_association,mBRSET acute myocardial infarction,M1_clinical_ocular,1266,BRIER,0.24257909867758456,,exploratory internal patient-level CV
+clinical_association,mBRSET acute myocardial infarction,M2_clinical_vascular,1266,AUROC,0.518582261671792,,exploratory internal patient-level CV
+clinical_association,mBRSET acute myocardial infarction,M2_clinical_vascular,1266,AUPRC,0.08121675105922586,,exploratory internal patient-level CV
+clinical_association,mBRSET acute myocardial infarction,M2_clinical_vascular,1266,BRIER,0.2290940030356612,,exploratory internal patient-level CV
+clinical_association,mBRSET permutation negative control,R0_clinical,1276,observed_AUROC,0.6648321524966261,,200 permutations; p=0.004975124378109453
+clinical_association,mBRSET permutation negative control,R2_reliable_core,1276,observed_AUROC,0.6662931366878735,,200 permutations; p=0.004975124378109453

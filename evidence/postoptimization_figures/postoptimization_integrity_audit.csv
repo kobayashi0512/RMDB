@@ -1,0 +1,5 @@
+artifact,path,exists,expected_n,observed_n,count_pass,cimt_test_used
+fundus_qc_gate,artifacts/fundus_avseg_external_validation/blind_qc_gate/metrics.json,True,100.0,100.0,True,False
+mbrset_permutation,artifacts/mbrset_external/permutation_negative_control/metrics.json,True,1276.0,1276.0,True,False
+e12,artifacts/e12_repeatability_gated_centile_full/metrics.json,True,2603.0,2603.0,True,False
+qc_transport,artifacts/quality_overlap_transport_rerun/metadata.json,True,,,True,False

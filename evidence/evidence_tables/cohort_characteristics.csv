@@ -1,0 +1,4 @@
+cohort,n,age_mean_sd,female_n_percent,primary_outcome,positive_n_percent,source
+China Fundus--CIMT development,2603,48.10 (12.82),916 (35.2%),CIMT 1.00 (0.18) mm,654 (25.1%),Frozen development OOF predictions; no raw val/test read
+China Fundus--CIMT frozen validation,200,46.67 (13.37),88 (44.0%),CIMT 0.92 (0.21) mm,43 (21.5%),Previously frozen E9 prediction artifact; descriptive reporting only
+mBRSET 224-pixel mirror,1287,61.44 (11.65),838 (65.1%),Systemic hypertension,912 (71.5%),External mechanism cohort; internal patient-level CV

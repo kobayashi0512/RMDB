@@ -1,0 +1,50 @@
+{
+  "title": "Pixel Accuracy Is Not Biomarker Validity: RMDB–BiRAP, a Framework with Dual Readouts and Reliability Gating for Retinal Vascular Phenotyping Across Domains",
+  "main_manuscript": "RMDB_BiRAP_VOCT_2Yuan_Manuscript.docx",
+  "supplement": "RMDB_BiRAP_VOCT_2Yuan_Supplement.docx",
+  "editable_figures": "RMDB_BiRAP_2Yuan_Figures_Editable.pptx",
+  "final_qc_report": "FINAL_QC_REPORT.md",
+  "figure_source_manifest": "Figure_Source_Manifest.csv",
+  "main_figures": 6,
+  "main_tables": 3,
+  "essential_equations": 5,
+  "palette": {
+    "dark_jade": "2B5B4A",
+    "jade": "4B806B",
+    "teal": "2F8E83",
+    "paper_cream": "FBF8EC",
+    "ochre": "A9823B",
+    "red_seal": "9B4A3C"
+  },
+  "scientific_colour_rule": "Real retinal images and exact statistical plots are not recoloured.",
+  "claim_boundary": "Measurement validity and four repeatable phenotypes supported; phenotype scales are non-exchangeable; clinical increment and independent high-resolution outcome confirmation are not established.",
+  "source_sha256": "a75ffa0a4e4208b21aaee232a39f8c71de754899fe30be52ebcef0d2eff68aed",
+  "figure_sha256": {
+    "Figure1.png": "1c6af76aa633324aa90e3c9f01e6a218638e0ad6dd8a00c5900d901767a91739",
+    "Figure2.png": "b40decf0628bf80e6718a6bc58178da38e614ed6ec50a28540a03a0d8feaa715",
+    "Figure3.png": "0fbd6ff17664bd99814cba2aa38a6eae1b6dbd5c7eab1cfca2a393c67f16f47c",
+    "Figure4.png": "fa8a5b800c5a416ff045cac9bf7c695fddd079441835d9339bef237d9a687a6e",
+    "Figure5.png": "262f8feb714f43398424949e8a2e8b984ce6ba084da04e9020827b79fd75a989",
+    "Figure6.png": "b45a260b4667ba05761a16e1aa2d96ae022e522c8cc4e4e9fa3c1b9e5be66c7e"
+  },
+  "figure_sources": {
+    "Figure1": [
+      "real FIVES, RAV, Fundus-AVSeg, AFIO, STARE, CIMT, and mBRSET images"
+    ],
+    "Figure2": [
+      "real CIMT development image and frozen RMDB–BiRAP outputs"
+    ],
+    "Figure3": [
+      "real RAV/Fundus-AVSeg images and exact five-cohort transport matrices"
+    ],
+    "Figure4": [
+      "real mBRSET same-eye repeat pair and exact ICC bootstrap intervals"
+    ],
+    "Figure5": [
+      "exact CIMT E4/E7/E8/E9 paired results"
+    ],
+    "Figure6": [
+      "exact reliable-core, mBRSET, permutation, and claim-boundary results"
+    ]
+  }
+}

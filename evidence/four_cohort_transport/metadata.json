@@ -1,0 +1,24 @@
+{
+  "analysis": "outcome-blind five-cohort phenotype transport stress test",
+  "cohorts": [
+    "CIMT train",
+    "mBRSET",
+    "AFIO",
+    "RAV",
+    "Fundus-AVSeg"
+  ],
+  "features": [
+    "soft_vessel_mass_fraction",
+    "mass_vessel_skeleton_length_density",
+    "factorized_vessel_skeleton_length_density",
+    "vessel_occupancy_disagreement"
+  ],
+  "bootstrap_repetitions": 2000,
+  "random_seed": 20260813,
+  "patient_eye_aggregation": "median across repeated views",
+  "reference": "CIMT split=train phenotype artifact only",
+  "raw_cimt_validation_or_test_read": false,
+  "clinical_outcomes_used": false,
+  "interpretation_boundary": "measurement-domain transport only; not independent clinical validation",
+  "complete": true
+}

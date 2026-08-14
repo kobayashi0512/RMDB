@@ -1,0 +1,72 @@
+# Frozen before V1 training. Changes require a new experiment identifier.
+experiment:
+  name: bimfo_v1_binary_field
+  seed: 20260727
+  primary_outcome: delta_cimt_mm
+  secondary_outcome: accelerated_cimt_top_quartile
+  test_set_policy: locked_until_model_selection_complete
+
+data:
+  image_size: 512
+  split: {train_group: 1, validation_group: 2, test_group: 3}
+  label_model: age_sex_spline_fit_on_training_only
+  quality_gate: vessel_confidence_minimum
+  bilateral_policy: both_eyes_required
+
+preprocessing:
+  module_name: AAIU_Canonicalizer  # Anatomy-Anchored, Acquisition-Invariant, Uncertainty-preserving
+  fov_detection: retinal_field_mask
+  canonical_orientation: disc_fovea_axis_horizontal_when_landmarks_available
+  laterality_normalization: mirror_left_right_to_shared_anatomical_frame
+  scale_normalization: fov_diameter_v1  # V2 replaces with optic_disc_diameter
+  views: [raw_color, illumination_normalized_structure, vessel_likelihood]
+  illumination_method: low_frequency_log_chromaticity_residual
+  style_policy: preserve_raw_view_and_randomize_style_only_during_training
+  quality_outputs: [fov_coverage, blur, illumination, vessel_confidence, landmark_confidence]
+  invalid_policy: abstain_if_landmark_or_vessel_confidence_low
+
+measurement:
+  vessel_model: fives_unet_resnet34
+  probability_threshold: 0.50
+  orientation_bins: 12
+  scales_px: [1.5, 3.0, 6.0, 12.0]
+  field_channels: 48
+  normalized_coordinates: provisional_image_fov  # V2 upgrades to disc-diameter coordinates
+
+model:
+  global_encoder: vit_small_patch14_dinov2_lvd142m
+  global_encoder_frozen_epochs: 5
+  global_projection_dim: 128
+  field_encoder_widths: [64, 96, 128]
+  field_embedding_dim: 128
+  bilateral_embedding_dim: 192
+  quality_gated_shared_difference: true
+  regression_head: huber
+  classification_head: focal
+  uncertainty_head: heteroscedastic_gaussian
+
+training:
+  epochs: 35
+  batch_size: 4
+  optimizer: adamw
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  warmup_epochs: 3
+  scheduler: cosine
+  amp: true
+  early_stopping_patience: 8
+  augmentations: [rotation_15deg, brightness_contrast, jpeg, mild_scale]
+
+loss:
+  delta_cimt_huber: 1.0
+  accelerated_cimt_focal: 0.35
+  bilateral_consistency: 0.10
+  field_topology_reconstruction: 0.10
+  conditional_age_independence: 0.05
+  uncertainty_nll: 0.10
+
+reporting:
+  bootstrap_repetitions: 1000
+  primary_metrics: [mae_mm, rmse_mm, r2, auroc, auprc, brier]
+  subgroups: [sex, age_band, image_quality]
+  robustness: [rotation, scale, brightness, jpeg, eye_dropout]

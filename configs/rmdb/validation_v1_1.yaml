@@ -1,0 +1,41 @@
+development_cohort:
+  include_official_splits: [train, val]
+  exclude_official_split: test
+  patient_level_only: true
+
+model_selection:
+  method: repeated_stratified_group_cross_validation
+  outer_folds: 5
+  repeats: 3
+  seed: 20260727
+  stratify_on:
+    - sex
+    - age_band
+    - cimt_quantile
+  label_construction_per_outer_fold:
+    expected_cimt: age_sex_spline_ridge
+    training_predictions: five_fold_oof
+    validation_predictions: outer_training_model_only
+    accelerated_threshold: outer_training_delta_q75
+
+primary_endpoint:
+  name: absolute_cimt_from_expected_plus_image_delta
+  selection_metric: mae_mm
+  secondary_metrics: [rmse_mm, r2, calibration_slope]
+
+secondary_endpoint:
+  name: accelerated_cimt
+  selection_metric: auroc
+  secondary_metrics: [auprc, brier, calibration_slope]
+
+required_reporting:
+  - mean_and_standard_deviation_across_outer_folds
+  - patient_level_bootstrap_confidence_intervals
+  - clinical_only_vs_global_only_vs_vessel_only_vs_hybrid_ablation
+  - qc_coverage_and_usable_cohort_metrics
+  - subgroup_metrics_by_sex_and_age_band
+
+locked_test:
+  official_split: test
+  evaluate_once_after_model_and_threshold_lock: true
+  current_status: not_evaluated
