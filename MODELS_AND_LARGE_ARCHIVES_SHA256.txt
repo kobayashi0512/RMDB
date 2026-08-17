@@ -1,0 +1,3 @@
+8ef63169d24ac3f01f3ae4cc0d77b6146675cdc26d6c68cd36487031d1a16f4c  China_Fundus_CIMT_CC0.tar.gz
+ac15665bf20c6c6c7943dba707ca942f77ba3ca4a25cf785ba444cf7bbd191e0  FIVES_CC_BY_4.0.zip
+a8a66cd50b542193c4df29375212f6d6dffa7561cd5c6e17365004f5dcc73d6e  RMDB_model_checkpoints_v1.0.0.tar.gz

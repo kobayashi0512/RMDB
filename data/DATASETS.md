@@ -21,11 +21,10 @@ The mBRSET image and metadata files must be obtained by each authorized research
 
 ## Integrity
 
-`OPEN_DATA_ASSETS_SHA256.txt` records the exact release assets. After download, verify an asset with:
+`OPEN_DATA_ASSETS_SHA256.txt` records the reconstructed open data archives, while `LARGE_ASSET_PARTS_SHA256.txt` records every numbered large file part. After download, follow `RELEASE_REASSEMBLY.md` and verify the result.
 
 ```bash
 shasum -a 256 -c OPEN_DATA_ASSETS_SHA256.txt
 ```
 
 Attribution and citation remain required even when a copy is provided for reproducibility.
-

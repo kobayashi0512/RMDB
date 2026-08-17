@@ -50,7 +50,7 @@ The individual scripts expose command line help. The locked protocols in `protoc
 
 Open datasets are archived as release assets only when their original licence permits redistribution. mBRSET is not mirrored because PhysioNet classifies it as a credentialed, data use agreement controlled resource. See `data/DATASETS.md` for the exact provenance and restrictions.
 
-Model checkpoints are stored as a versioned release asset rather than Git blobs. Every asset has a SHA256 entry in the release manifests.
+Model checkpoints and the two largest open datasets are stored as numbered release parts rather than Git blobs. Every part and reconstructed archive has a SHA256 entry in the release manifests. See `RELEASE_REASSEMBLY.md` for the exact reconstruction commands.
 
 ## Responsible use
 
@@ -63,4 +63,3 @@ Citation metadata are provided in `CITATION.cff`. Until peer review is complete,
 ## Licence and third party components
 
 No blanket relicensing of third party datasets, pretrained weights, or dependencies is implied. Each dataset and dependency remains under its original terms. Project source is currently shared for research review in this private repository; an explicit public source licence should be selected before making the repository public.
-

@@ -22,5 +22,4 @@ The checkpoints were created for the exact preprocessing and cohort roles docume
 
 ## Distribution
 
-Checkpoint binaries are attached to the repository release as `RMDB_model_checkpoints_v1.0.0.tar.gz`. `MODEL_ASSETS_SHA256.txt` records both the archive checksum and the checksum of each checkpoint contained in it.
-
+Checkpoint binaries are attached to the repository release as numbered parts of `RMDB_model_checkpoints_v1.0.0.tar.gz`. `MODEL_ASSETS_SHA256.txt` records the reconstructed archive checksum, `MODEL_CONTENTS_SHA256.txt` records every checkpoint, and `LARGE_ASSET_PARTS_SHA256.txt` records each downloadable part.
