@@ -47,7 +47,7 @@
 | `MESA_retinal_E5_variable_report.xml` | 375 KB | `1ea61084960003dc45bb24cbec65190be22e9f99e0a79cb9dc39f2ba3984b0bb` |
 
 本地目录：
-`/Users/tongyue/Documents/ppf/papers/data/external/MESA_metadata`
+`source-data:/data/external/MESA_metadata`
 
 公开 XML 下载可行；原始患者级表不能匿名下载，需要 dbGaP/BioLINCC 授权。
 更重要的是，dbGaP distribution manifest 对 Exam 2/5 retinal photography

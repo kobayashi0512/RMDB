@@ -2,7 +2,7 @@
   {
     "dataset": "FIVES",
     "status": "ready",
-    "root": "/Users/tongyue/Documents/ppf/papers/data/FIVES",
+    "root": "source-data:/data/FIVES",
     "files": 1602,
     "images": 1600,
     "labels_or_masks": 0,
@@ -16,7 +16,7 @@
   {
     "dataset": "RAV",
     "status": "ready",
-    "root": "/Users/tongyue/Documents/ppf/papers/data/external/RAV/dataset",
+    "root": "source-data:/data/external/RAV/dataset",
     "files": 412,
     "images": 412,
     "labels_or_masks": 0,
@@ -29,7 +29,7 @@
   {
     "dataset": "STARE",
     "status": "ready",
-    "root": "/Users/tongyue/Documents/ppf/papers/data/external/STARE",
+    "root": "source-data:/data/external/STARE",
     "files": 442,
     "images": 397,
     "labels_or_masks": 42,
