@@ -1,0 +1,116 @@
+{"kind":"deck","id":"pr/xm0jrw","name":"Deck"}
+{"kind":"layout","layoutId":"75ddfda7-fa9a-42b5-96fc-6d38be417e38","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"7d8210fa-4928-4426-834d-c37d5e7ed611","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/9fanz0","slide":1,"title":"A","textShapes":63}
+{"kind":"textbox","id":"sh/c76tkvat","slide":1,"name":"panel-a","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[62,27,48,58]}
+{"kind":"textbox","id":"sh/b6xcbqt8","slide":1,"name":"panel-a-title","text":"Anatomy is fixed before phenotype measurement","textPreview":"Anatomy is fixed before phenotype measurement","textChars":45,"textLines":1,"bbox":[112,31,850,50]}
+{"kind":"textbox","id":"sh/q5obilsn","slide":1,"name":"panel-a-note","text":"Fundus-AVSeg 059_D · real study image · saved pipeline outputs","textPreview":"Fundus-AVSeg 059_D · real study image · saved pipeline outputs","textChars":62,"textLines":1,"bbox":[980,42,745,34]}
+{"kind":"shape","id":"sh/lczuh0ba","slide":1,"name":"anatomy-panel","bbox":[62,96,1676,188]}
+{"kind":"shape","id":"sh/zaxcfqt4","slide":1,"name":"anatomy-0-image-border","bbox":[86,119,142,126]}
+{"kind":"textbox","id":"sh/y9obmlsj","slide":1,"name":"anatomy-0-title","text":"Raw photograph","textPreview":"Raw photograph","textChars":14,"textLines":1,"bbox":[78,247,158,25]}
+{"kind":"textbox","id":"sh/90zulkb6","slide":1,"name":"anatomy-0-note","text":"I","textPreview":"I","textChars":1,"textLines":1,"bbox":[78,269,158,18]}
+{"kind":"shape","id":"sh/8fqdsfal","slide":1,"name":"anatomy-arrow-0","bbox":[239,172,34,20]}
+{"kind":"shape","id":"sh/f6ds76xo","slide":1,"name":"anatomy-1-image-border","bbox":[294,119,142,126]}
+{"kind":"textbox","id":"sh/07mt0be9","slide":1,"name":"anatomy-1-title","text":"Standardised RGB","textPreview":"Standardised RGB","textChars":16,"textLines":1,"bbox":[286,247,158,25]}
+{"kind":"textbox","id":"sh/18va9gfu","slide":1,"name":"anatomy-1-note","text":"I*","textPreview":"I*","textChars":2,"textLines":1,"bbox":[286,269,158,18]}
+{"kind":"shape","id":"sh/294b2lwf","slide":1,"name":"anatomy-arrow-1","bbox":[447,172,34,20]}
+{"kind":"shape","id":"sh/obmt4vel","slide":1,"name":"anatomy-2-image-border","bbox":[502,119,142,126]}
+{"kind":"textbox","id":"sh/pcfad0f6","slide":1,"name":"anatomy-2-title","text":"Disc–fovea frame","textPreview":"Disc–fovea frame","textChars":16,"textLines":1,"bbox":[494,247,158,25]}
+{"kind":"textbox","id":"sh/idkrqhgb","slide":1,"name":"anatomy-2-note","text":"Zone B only after QC","textPreview":"Zone B only after QC","textChars":20,"textLines":1,"bbox":[494,269,158,18]}
+{"kind":"shape","id":"sh/3etszmxw","slide":1,"name":"anatomy-arrow-2","bbox":[655,172,34,20]}
+{"kind":"shape","id":"sh/m5wzit8r","slide":1,"name":"anatomy-3-image-border","bbox":[710,119,142,126]}
+{"kind":"textbox","id":"sh/987yd8ri","slide":1,"name":"anatomy-3-title","text":"Enhanced vessel view","textPreview":"Enhanced vessel view","textChars":20,"textLines":1,"bbox":[702,247,158,25]}
+{"kind":"textbox","id":"sh/87ehk3qx","slide":1,"name":"anatomy-3-note","text":"shared frozen input","textPreview":"shared frozen input","textChars":19,"textLines":1,"bbox":[702,269,158,18]}
+{"kind":"shape","id":"sh/z25g7e90","slide":1,"name":"coordinate-callout","bbox":[914,117,790,143]}
+{"kind":"textbox","id":"sh/y1wzetsf","slide":1,"name":"coordinate-badge","text":"COORDINATE FIRST","textPreview":"COORDINATE FIRST","textChars":16,"textLines":1,"bbox":[938,132,205,30]}
+{"kind":"textbox","id":"sh/l4ny9or6","slide":1,"name":"coordinate-title","text":"No phenotype is calculated from raw I alone","textPreview":"No phenotype is calculated from raw I alone","textChars":43,"textLines":1,"bbox":[938,169,728,38]}
+{"kind":"textbox","id":"sh/k3ehgjal","slide":1,"name":"coordinate-note","text":"Field of view, optic disc and fovea establish a common retinal frame. Disc failure is retained as provenance; it does not silently generate a Zone B value.","textPreview":"Field of view, optic disc and fovea establish a common retinal frame. Disc failure is retained as provenance; it does not silently genera...","textChars":155,"textLines":1,"bbox":[938,209,728,49]}
+{"kind":"textbox","id":"sh/jyp0ji9k","slide":1,"name":"panel-b","text":"B","textPreview":"B","textChars":1,"textLines":1,"bbox":[62,291,48,58]}
+{"kind":"textbox","id":"sh/ixgzqd8z","slide":1,"name":"panel-b-title","text":"Separate vascular identity from vessel support","textPreview":"Separate vascular identity from vessel support","textChars":46,"textLines":1,"bbox":[112,297,910,44]}
+{"kind":"textbox","id":"sh/gjadkfqh","slide":1,"name":"panel-b-note","text":"Two frozen branches answer noninterchangeable questions","textPreview":"Two frozen branches answer noninterchangeable questions","textChars":55,"textLines":1,"bbox":[1050,306,660,34]}
+{"kind":"shape","id":"sh/1kjedk72","slide":1,"name":"factorisation-panel","bbox":[62,352,1676,385]}
+{"kind":"textbox","id":"sh/eh8vi58b","slide":1,"name":"shared-input-badge","text":"SHARED INPUT I*","textPreview":"SHARED INPUT I*","textChars":15,"textLines":1,"bbox":[86,371,180,30]}
+{"kind":"shape","id":"sh/o7adof6d","slide":1,"name":"shared-input-image-border","bbox":[86,411,170,170]}
+{"kind":"textbox","id":"sh/p8jehk7y","slide":1,"name":"shared-input-title","text":"Same anatomy","textPreview":"Same anatomy","textChars":12,"textLines":1,"bbox":[86,590,170,32]}
+{"kind":"textbox","id":"sh/2lsvmp87","slide":1,"name":"shared-input-note","text":"one image, two questions","textPreview":"one image, two questions","textChars":24,"textLines":1,"bbox":[73,621,196,27]}
+{"kind":"shape","id":"sh/3m1wfaps","slide":1,"name":"input-to-identity","bbox":[270,446,35,20]}
+{"kind":"shape","id":"sh/cbuxsz6p","slide":1,"name":"input-to-occupancy","bbox":[270,592,35,20]}
+{"kind":"shape","id":"sh/xc3el47a","slide":1,"name":"identity-card","bbox":[315,374,440,148]}
+{"kind":"shape","id":"sh/wjmx8fup","slide":1,"name":"identity-overlay-border","bbox":[334,393,112,112]}
+{"kind":"textbox","id":"sh/vitwzat4","slide":1,"name":"identity-badge","text":"IDENTITY","textPreview":"IDENTITY","textChars":8,"textLines":1,"bbox":[465,391,130,30]}
+{"kind":"textbox","id":"sh/ahkv6pcj","slide":1,"name":"identity-title","text":"VascX + UDCT ×2","textPreview":"VascX + UDCT ×2","textChars":15,"textLines":1,"bbox":[465,432,265,36]}
+{"kind":"textbox","id":"sh/9gbexkbe","slide":1,"name":"identity-formula","text":"P(A,V,C | I*)","textPreview":"P(A,V,C | I*)","textChars":13,"textLines":1,"bbox":[465,471,265,32]}
+{"kind":"textbox","id":"sh/8f2d4fut","slide":1,"name":"identity-note","text":"artery · vein · crossing","textPreview":"artery · vein · crossing","textChars":24,"textLines":1,"bbox":[465,498,265,20]}
+{"kind":"shape","id":"sh/nutwvat8","slide":1,"name":"occupancy-card","bbox":[315,548,440,148]}
+{"kind":"shape","id":"sh/tcfe94bi","slide":1,"name":"occupancy-overlay-border","bbox":[334,567,112,112]}
+{"kind":"textbox","id":"sh/sb6xgzax","slide":1,"name":"occupancy-badge","text":"OCCUPANCY","textPreview":"OCCUPANCY","textChars":9,"textLines":1,"bbox":[465,565,160,30]}
+{"kind":"textbox","id":"sh/qlw3eho3","slide":1,"name":"occupancy-title","text":"Frozen FIVES estimator","textPreview":"Frozen FIVES estimator","textChars":22,"textLines":1,"bbox":[465,606,265,36]}
+{"kind":"textbox","id":"sh/rm5kn25o","slide":1,"name":"occupancy-formula","text":"O = P(vessel | I*)","textPreview":"O = P(vessel | I*)","textChars":18,"textLines":1,"bbox":[465,645,265,32]}
+{"kind":"textbox","id":"sh/snylg769","slide":1,"name":"occupancy-note","text":"support only; no A/V identity","textPreview":"support only; no A/V identity","textChars":29,"textLines":1,"bbox":[465,669,265,22]}
+{"kind":"shape","id":"sh/do72pcnu","slide":1,"name":"branch-readout-divider","bbox":[790,374,1.4,322]}
+{"kind":"shape","id":"sh/ihwjaxo7","slide":1,"name":"identity-to-mass","bbox":[765,438,33,20]}
+{"kind":"shape","id":"sh/3i5kj25s","slide":1,"name":"identity-to-factor","bbox":[765,584,33,20]}
+{"kind":"shape","id":"sh/4je1c76x","slide":1,"name":"occupancy-to-factor","bbox":[765,628,33,20]}
+{"kind":"shape","id":"sh/5kn2lcni","slide":1,"name":"mass-card","bbox":[816,374,380,148]}
+{"kind":"shape","id":"sh/ne9kvm5w","slide":1,"name":"mass-overlay-border","bbox":[835,393,112,112]}
+{"kind":"textbox","id":"sh/jy107yl8","slide":1,"name":"mass-badge","text":"READOUT 1","textPreview":"READOUT 1","textChars":9,"textLines":1,"bbox":[966,391,138,30]}
+{"kind":"textbox","id":"sh/yxszet4n","slide":1,"name":"mass-title","text":"Mass-UDCT","textPreview":"Mass-UDCT","textChars":9,"textLines":1,"bbox":[966,430,210,35]}
+{"kind":"textbox","id":"sh/lkji9o3e","slide":1,"name":"mass-formula","text":"M = P(A,V,C | I*)","textPreview":"M = P(A,V,C | I*)","textChars":17,"textLines":1,"bbox":[966,466,210,33]}
+{"kind":"textbox","id":"sh/kzahgjmt","slide":1,"name":"mass-note","text":"retains calibrated mass","textPreview":"retains calibrated mass","textChars":23,"textLines":1,"bbox":[966,496,210,22]}
+{"kind":"shape","id":"sh/7m10bylk","slide":1,"name":"factorized-card","bbox":[816,548,380,148]}
+{"kind":"shape","id":"sh/to3id83a","slide":1,"name":"factorized-overlay-border","bbox":[835,567,112,112]}
+{"kind":"textbox","id":"sh/8nuhk3mp","slide":1,"name":"factorized-badge","text":"READOUT 2","textPreview":"READOUT 2","textChars":9,"textLines":1,"bbox":[966,565,138,30]}
+{"kind":"textbox","id":"sh/vql0filg","slide":1,"name":"factorized-title","text":"Factorized-UDCT","textPreview":"Factorized-UDCT","textChars":15,"textLines":1,"bbox":[966,602,210,33]}
+{"kind":"textbox","id":"sh/upczmd4v","slide":1,"name":"factorized-formula","text":"F = O × P(identity | vessel)","textPreview":"F = O × P(identity | vessel)","textChars":28,"textLines":1,"bbox":[966,636,210,25]}
+{"kind":"textbox","id":"sh/svehcni9","slide":1,"name":"factorized-note","text":"requires vessel support first","textPreview":"requires vessel support first","textChars":29,"textLines":1,"bbox":[966,664,210,23]}
+{"kind":"shape","id":"sh/dwny58ju","slide":1,"name":"readouts-to-operators-top","bbox":[1207,438,34,20]}
+{"kind":"shape","id":"sh/qtczad03","slide":1,"name":"readouts-to-operators-bottom","bbox":[1207,612,34,20]}
+{"kind":"shape","id":"sh/rulg3i1o","slide":1,"name":"operators-card","bbox":[1250,383,454,300]}
+{"kind":"textbox","id":"sh/4ruh83ix","slide":1,"name":"operators-badge","text":"PRESPECIFIED OPERATORS","textPreview":"PRESPECIFIED OPERATORS","textChars":22,"textLines":1,"bbox":[1274,401,260,30]}
+{"kind":"textbox","id":"sh/5s3y18ji","slide":1,"name":"operators-title","text":"Phenotype candidates","textPreview":"Phenotype candidates","textChars":20,"textLines":1,"bbox":[1274,440,395,38]}
+{"kind":"textbox","id":"sh/ipcf6t0r","slide":1,"name":"operator-0","text":"vessel mass","textPreview":"vessel mass","textChars":11,"textLines":1,"bbox":[1274,489,187,38]}
+{"kind":"textbox","id":"sh/3qlgzy1c","slide":1,"name":"operator-1","text":"skeleton density","textPreview":"skeleton density","textChars":16,"textLines":1,"bbox":[1475,489,190,38]}
+{"kind":"textbox","id":"sh/gnux43i1","slide":1,"name":"operator-2","text":"branch density","textPreview":"branch density","textChars":14,"textLines":1,"bbox":[1274,537,187,38]}
+{"kind":"textbox","id":"sh/ho3yxojm","slide":1,"name":"operator-3","text":"A/V balance","textPreview":"A/V balance","textChars":11,"textLines":1,"bbox":[1475,537,190,38]}
+{"kind":"textbox","id":"sh/90n6hgja","slide":1,"name":"operator-4","text":"entropy","textPreview":"entropy","textChars":7,"textLines":1,"bbox":[1274,585,187,38]}
+{"kind":"textbox","id":"sh/oze58b2p","slide":1,"name":"operator-5","text":"readout disagreement","textPreview":"readout disagreement","textChars":20,"textLines":1,"bbox":[1475,585,190,38]}
+{"kind":"textbox","id":"sh/ny5ofq14","slide":1,"name":"operators-note","text":"Agreement and disagreement are retained separately; neither branch is allowed to silently redefine the other.","textPreview":"Agreement and disagreement are retained separately; neither branch is allowed to silently redefine the other.","textChars":109,"textLines":1,"bbox":[1274,634,395,42]}
+{"kind":"shape","id":"sh/mxwn6lkj","slide":1,"name":"identity-support-statement","bbox":[315,707,1389,22]}
+{"kind":"textbox","id":"sh/xo76l0j6","slide":1,"name":"identity-support-statement-text","text":"Identity ≠ vessel support. The two readouts remain explicit until reliability is established.","textPreview":"Identity ≠ vessel support. The two readouts remain explicit until reliability is established.","textChars":93,"textLines":1,"bbox":[330,705,1359,27]}
+{"kind":"textbox","id":"sh/wny5cv2l","slide":1,"name":"panel-c","text":"C","textPreview":"C","textChars":1,"textLines":1,"bbox":[62,742,48,58]}
+{"kind":"textbox","id":"sh/vmpojq10","slide":1,"name":"panel-c-title","text":"BiRAP gates features before any clinical outcome is modelled","textPreview":"BiRAP gates features before any clinical outcome is modelled","textChars":60,"textLines":1,"bbox":[112,748,1040,46]}
+{"kind":"textbox","id":"sh/a1gnalkf","slide":1,"name":"panel-c-note","text":"same-eye repeatability · outcome blind · patient grouped","textPreview":"same-eye repeatability · outcome blind · patient grouped","textChars":56,"textLines":1,"bbox":[1190,758,520,32]}
+{"kind":"shape","id":"sh/5s76p0j2","slide":1,"name":"birap-panel","bbox":[62,806,1676,196]}
+{"kind":"textbox","id":"sh/krypgv2x","slide":1,"name":"outcome-blind-badge","text":"OUTCOME BLIND","textPreview":"OUTCOME BLIND","textChars":13,"textLines":1,"bbox":[86,820,178,30]}
+{"kind":"shape","id":"sh/2xs3ax0z","slide":1,"name":"same-eye-card","bbox":[86,855,285,100]}
+{"kind":"textbox","id":"sh/3y1kj2hk","slide":1,"name":"same-eye-icons","text":"◉    ↻    ◉","textPreview":"◉    ↻    ◉","textChars":11,"textLines":1,"bbox":[104,858,248,41]}
+{"kind":"textbox","id":"sh/4zalc7i5","slide":1,"name":"same-eye-title","text":"same eye, paired views","textPreview":"same eye, paired views","textChars":22,"textLines":1,"bbox":[104,899,248,27]}
+{"kind":"textbox","id":"sh/p0jmlczq","slide":1,"name":"same-eye-count","text":"2,359 pairs","textPreview":"2,359 pairs","textChars":11,"textLines":1,"bbox":[104,927,248,24]}
+{"kind":"shape","id":"sh/q1s3eh0b","slide":1,"name":"same-eye-to-icc","bbox":[383,893,38,22]}
+{"kind":"shape","id":"sh/r2l4nmhw","slide":1,"name":"icc-card","bbox":[432,848,300,107]}
+{"kind":"textbox","id":"sh/c3ulgrih","slide":1,"name":"icc-title","text":"Reliability statistic","textPreview":"Reliability statistic","textChars":21,"textLines":1,"bbox":[452,858,260,30]}
+{"kind":"textbox","id":"sh/d43mpcz2","slide":1,"name":"icc-formula","text":"ICC(1,1) ≥ 0.60","textPreview":"ICC(1,1) ≥ 0.60","textChars":15,"textLines":1,"bbox":[452,890,260,33]}
+{"kind":"textbox","id":"sh/e5c3ih07","slide":1,"name":"icc-note","text":"for each prespecified feature","textPreview":"for each prespecified feature","textChars":29,"textLines":1,"bbox":[452,925,260,23]}
+{"kind":"shape","id":"sh/z6l4rmhs","slide":1,"name":"icc-to-core","bbox":[744,893,38,22]}
+{"kind":"shape","id":"sh/0vupsfyt","slide":1,"name":"core-card","bbox":[793,848,300,107]}
+{"kind":"textbox","id":"sh/lw3qlkfe","slide":1,"name":"core-title","text":"Retained reliable core","textPreview":"Retained reliable core","textChars":22,"textLines":1,"bbox":[813,858,260,30]}
+{"kind":"textbox","id":"sh/y9c7q5g3","slide":1,"name":"core-count","text":"4 of 9 phenotypes","textPreview":"4 of 9 phenotypes","textChars":17,"textLines":1,"bbox":[813,890,260,33]}
+{"kind":"textbox","id":"sh/zul8jah8","slide":1,"name":"core-note","text":"fixed before labels are fitted","textPreview":"fixed before labels are fitted","textChars":30,"textLines":1,"bbox":[813,925,260,23]}
+{"kind":"shape","id":"sh/8zepwzy5","slide":1,"name":"core-to-patient","bbox":[1105,893,38,22]}
+{"kind":"shape","id":"sh/90nqpkfq","slide":1,"name":"patient-card","bbox":[1154,848,550,107]}
+{"kind":"textbox","id":"sh/mxc7upgz","slide":1,"name":"patient-title","text":"Patient-level phenotype vector","textPreview":"Patient-level phenotype vector","textChars":30,"textLines":1,"bbox":[1174,858,510,30]}
+{"kind":"textbox","id":"sh/ny58nuxk","slide":1,"name":"patient-formula","text":"bilateral mean + |L − R|","textPreview":"bilateral mean + |L − R|","textChars":24,"textLines":1,"bbox":[1174,890,510,33]}
+{"kind":"textbox","id":"sh/o3apkvyl","slide":1,"name":"patient-note","text":"patient-grouped folds · no view leakage","textPreview":"patient-grouped folds · no view leakage","textChars":39,"textLines":1,"bbox":[1174,925,510,23]}
+{"kind":"shape","id":"sh/p4j6d0z6","slide":1,"name":"icc-to-stop","bbox":[571,957,22,16]}
+{"kind":"shape","id":"sh/ra9kf2l0","slide":1,"name":"stop-strip","bbox":[432,976,1272,18]}
+{"kind":"textbox","id":"sh/690j6x4f","slide":1,"name":"stop-strip-text","text":"FAIL QC OR ICC → STOP: the feature does not enter outcome modelling.","textPreview":"FAIL QC OR ICC → STOP: the feature does not enter outcome modelling.","textChars":68,"textLines":1,"bbox":[450,972,1236,25]}
+{"kind":"image","id":"im/5kbylkvy","slide":1,"name":"","geometry":"roundRect","alt":"anatomy-0-image","bbox":[86,119,142,126]}
+{"kind":"image","id":"im/x07mh4zu","slide":1,"name":"","geometry":"roundRect","alt":"anatomy-1-image","bbox":[294,119,142,126]}
+{"kind":"image","id":"im/ovelkzid","slide":1,"name":"","geometry":"roundRect","alt":"anatomy-2-image","bbox":[502,119,142,126]}
+{"kind":"image","id":"im/cnax8ra5","slide":1,"name":"","geometry":"roundRect","alt":"anatomy-3-image","bbox":[710,119,142,126]}
+{"kind":"image","id":"im/kr6xc7ep","slide":1,"name":"","geometry":"roundRect","alt":"shared-input-image","bbox":[86,411,170,170]}
+{"kind":"image","id":"im/elgzulk3","slide":1,"name":"","geometry":"roundRect","alt":"identity-overlay","bbox":[334,393,112,112]}
+{"kind":"image","id":"im/psrit03q","slide":1,"name":"","geometry":"roundRect","alt":"occupancy-overlay","bbox":[334,567,112,112]}
+{"kind":"image","id":"im/9sbu9or2","slide":1,"name":"","geometry":"roundRect","alt":"mass-overlay","bbox":[835,393,112,112]}
+{"kind":"image","id":"im/p0futozu","slide":1,"name":"","geometry":"roundRect","alt":"factorized-overlay","bbox":[835,567,112,112]}
+{"kind":"notes","id":"nt/9fanz0","slide":1,"text":"[Sources]\n/Users/tongyue/Documents/ppf/papers/RMDB/restored_assets/Fundus_AVSeg/Fundus-AVSeg/images/059_D.png\n/Users/tongyue/Documents/ppf/papers/RMDB/artifacts/reverse_open/FundusAVSeg/anatomy/preprocessed_rgb/059_D.png\n/Users/tongyue/Documents/ppf/papers/RMDB/artifacts/reverse_open/FundusAVSeg/anatomy/preprocessed_ce/059_D.png\n/Users/tongyue/Documents/ppf/papers/RMDB/artifacts/reverse_open/FundusAVSeg/anatomy/disc/059_D.png\n/Users/tongyue/Documents/ppf/papers/RMDB/artifacts/reverse_open/FundusAVSeg/anatomy/fovea.csv\n/Users/tongyue/Documents/ppf/papers/RMDB/artifacts/reverse_open/FundusAVSeg/occupancy/059_D.npy\n/Users/tongyue/Documents/ppf/papers/RMDB/artifacts/reverse_open/FundusAVSeg/locked_evaluation/predictions/vascx/059_D.png\n/Users/tongyue/Documents/ppf/papers/RMDB/artifacts/reverse_open/FundusAVSeg/locked_evaluation/predictions/mass_udct/059_D.png\n/Users/tongyue/Documents/ppf/papers/RMDB/artifacts/reverse_open/FundusAVSeg/locked_evaluation/predictions/factorized_mass_udct/059_D.png\n/Users/tongyue/Documents/ppf/papers/RMDB/artifacts/reverse_open/FundusAVSeg/phenotypes/per_eye.csv\nAll retinal panels are exact study photographs or deterministic visualisations of saved model outputs."}

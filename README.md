@@ -2,7 +2,7 @@
 
 RMDB is a reproducible retinal microvascular digital biomarker framework developed to test a simple but often overlooked proposition: good pixel segmentation is not the same as a valid, transportable biomarker.
 
-The repository accompanies the manuscript **“Pixel Accuracy Is Not Biomarker Validity: RMDB–BiRAP, a Framework with Dual Readouts and Reliability Gating for Retinal Vascular Phenotyping Across Domains.”** The archived manuscript draft is provided as `paper/RMBD_1.0.docx` and `paper/RMBD_1.0.pdf`, following the author supplied version name.
+The repository accompanies the manuscript **“Pixel Accuracy Is Not Biomarker Validity: RMDB–BiRAP, a Framework with Dual Readouts and Reliability Gating for Retinal Vascular Phenotyping Across Domains.”** The current complete manuscript is `paper/RMDB_3.1_Complete_FiguresIntegrated.docx`. Earlier manuscript and figure iterations are retained under `paper/history/` for provenance.
 
 ## What RMDB contains
 
@@ -20,7 +20,7 @@ The current evidence supports external pixel measurement and four repeatable vas
 
 | Path | Contents |
 |---|---|
-| `paper/` | Manuscript draft RMBD 1.0, supplement, editable figures, rendered figures, quality report, and source manifest |
+| `paper/` | Current manuscript RMDB 3.1, original RMBD 1.0 deposit, supplement, current editable figures, source manifests, and complete manuscript and figure history |
 | `src/` | Project source code used for training, phenotype extraction, validation, sensitivity analysis, and manuscript generation |
 | `configs/` | Frozen data and experiment configuration files |
 | `protocols/` | Locked protocols, negative result records, decision logs, and paper blueprints |
@@ -51,6 +51,8 @@ The individual scripts expose command line help. The locked protocols in `protoc
 Open datasets are archived as release assets only when their original licence permits redistribution. mBRSET is not mirrored because PhysioNet classifies it as a credentialed, data use agreement controlled resource. See `data/DATASETS.md` for the exact provenance and restrictions.
 
 Model checkpoints and the two largest open datasets are stored as numbered release parts rather than Git blobs. Every part and reconstructed archive has a SHA256 entry in the release manifests. See `RELEASE_REASSEMBLY.md` for the exact reconstruction commands.
+
+The `v3.1.0-archive` release adds the complete V2 and V3 optimisation outputs and the open-data reverse-validation outputs generated from 21 to 26 August 2026. These archives contain logs, configurations, metrics, derived maps, and experiment checkpoints. They do not contain credentialed mBRSET images or patient-level controlled-access tables. See `ARCHIVE_20260827.md` and `RELEASE_20260827_SHA256.txt`.
 
 ## Responsible use
 

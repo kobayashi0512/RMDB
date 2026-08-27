@@ -1,0 +1,13 @@
+panel,element,embedded_asset,scientific_source,role
+A,FIVES,image4.png,FIVES local image resource,real photograph
+A,RAV,image5.png,RAV local image resource,real photograph
+A,Fundus-AVSeg,image6.png,Fundus-AVSeg local image resource,real photograph
+A,China Fundus-CIMT,image9.png,China Fundus-CIMT local development resource,real photograph
+A,mBRSET mirror,image10.png,mBRSET local mirror,real photograph
+B,raw photograph,image11.png,China Fundus-CIMT matched eye,real photograph
+B,standardised image,image12.png,RMDB-BiRAP preprocessing output,processed image
+B,disc-fovea frame,image13.png,anatomical standardisation output,processed image
+B,occupancy,image15.png,FIVES-trained frozen occupancy readout,probability map
+B,identity,image16.png,frozen VascX + UDCT identity map,processed map
+B,Mass-UDCT,image17.png,mass-preserving reconstruction,processed map
+B,Factorized-UDCT,image18.png,occupancy-gated reconstruction,processed map

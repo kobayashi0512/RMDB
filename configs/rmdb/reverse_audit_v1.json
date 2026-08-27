@@ -1,0 +1,68 @@
+{
+  "protocol_version": "2026-08-21.v1",
+  "status": "locked_before_reverse_audit",
+  "seed": 20260821,
+  "icc_threshold": 0.6,
+  "minimum_reverse_feature_coverage": 0.7,
+  "prespecified_eye_phenotypes": [
+    "soft_vessel_mass_fraction",
+    "soft_av_log_mass_ratio",
+    "mass_vessel_skeleton_length_density",
+    "mass_vessel_branch_cluster_density",
+    "factorized_vessel_skeleton_length_density",
+    "factorized_av_log_area_ratio",
+    "vessel_occupancy_disagreement",
+    "base_to_mass_identity_disagreement",
+    "identity_entropy"
+  ],
+  "previously_frozen_reliable_core": [
+    "soft_vessel_mass_fraction",
+    "mass_vessel_skeleton_length_density",
+    "factorized_vessel_skeleton_length_density",
+    "vessel_occupancy_disagreement"
+  ],
+  "previously_rejected_core": [
+    "soft_av_log_mass_ratio",
+    "mass_vessel_branch_cluster_density",
+    "factorized_av_log_area_ratio",
+    "base_to_mass_identity_disagreement",
+    "identity_entropy"
+  ],
+  "prespecified_reverse_patient_features": [
+    "vessel_occupancy_disagreement__bilateral_mean",
+    "base_to_mass_identity_disagreement__bilateral_mean",
+    "av_log_ratio_absolute_disagreement__bilateral_mean",
+    "soft_vessel_mass_fraction__absolute_difference",
+    "mass_vessel_skeleton_length_density__absolute_difference",
+    "factorized_vessel_skeleton_length_density__absolute_difference",
+    "soft_vessel_mass_fraction__within_eye_std",
+    "mass_vessel_skeleton_length_density__within_eye_std",
+    "factorized_vessel_skeleton_length_density__within_eye_std"
+  ],
+  "allowed_outcome_blind_audit_covariates": [
+    "dataset",
+    "disc_detected",
+    "final_quality",
+    "final_artifacts",
+    "final_icdr",
+    "eye",
+    "patient_id",
+    "id"
+  ],
+  "clinical_covariates": [
+    "age",
+    "sex",
+    "dm_time"
+  ],
+  "primary_clinical_outcome": "systemic_hypertension",
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "regularization_grid": [0.001, 0.01, 0.1, 1.0, 10.0],
+  "bootstrap_repetitions": 5000,
+  "prohibited_actions": [
+    "read_or_tune_on_cimt_fixed_validation_or_test",
+    "outcome_driven_feature_screening",
+    "post_hoc_icc_threshold_changes",
+    "repeated_threshold_search_after_clinical_results"
+  ]
+}

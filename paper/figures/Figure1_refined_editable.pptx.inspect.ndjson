@@ -1,0 +1,157 @@
+{"kind":"deck","id":"pr/j11jx7","name":"Deck"}
+{"kind":"layout","layoutId":"593ef005-ec41-4705-89c8-f708492e2d58","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"3c476ce7-db0e-4921-8dee-92dcb20005d7","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/qubw9i","slide":1,"title":"A","textShapes":73}
+{"kind":"textbox","id":"sh/felsvq5w","slide":1,"name":"panel-a","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[62,31,48,58]}
+{"kind":"textbox","id":"sh/gfutov6h","slide":1,"name":"panel-a-title","text":"Prespecified resource roles","textPreview":"Prespecified resource roles","textChars":27,"textLines":1,"bbox":[112,36,600,52]}
+{"kind":"textbox","id":"sh/1g3axgn2","slide":1,"name":"panel-a-note","text":"No cohort changes role after outcomes are inspected","textPreview":"No cohort changes role after outcomes are inspected","textChars":51,"textLines":1,"bbox":[700,47,820,38]}
+{"kind":"shape","id":"sh/2hcbqlon","slide":1,"name":"cohort-0-card","bbox":[62,108,306,150]}
+{"kind":"shape","id":"sh/o3etsv6d","slide":1,"name":"cohort-0-image-border","bbox":[76,122,98,104]}
+{"kind":"textbox","id":"sh/p4na10ny","slide":1,"name":"cohort-0-name","text":"FIVES","textPreview":"FIVES","textChars":5,"textLines":1,"bbox":[186,119,168,32]}
+{"kind":"textbox","id":"sh/ilsre1o3","slide":1,"name":"cohort-0-sample","text":"800 images","textPreview":"800 images","textChars":10,"textLines":1,"bbox":[186,155,168,31]}
+{"kind":"textbox","id":"sh/jm1sn65o","slide":1,"name":"cohort-0-roles","text":"Occupancy\ndevelopment","textPreview":"Occupancy | development","textChars":21,"textLines":2,"bbox":[186,189,168,51]}
+{"kind":"shape","id":"sh/b25k36ls","slide":1,"name":"cohort-0-accent","bbox":[76,248,278,4]}
+{"kind":"shape","id":"sh/a1w3a147","slide":1,"name":"cohort-1-card","bbox":[393,108,306,150]}
+{"kind":"shape","id":"sh/w3elcbmd","slide":1,"name":"cohort-1-image-border","bbox":[407,122,98,104]}
+{"kind":"textbox","id":"sh/ny5kzmlw","slide":1,"name":"cohort-1-name","text":"RAV","textPreview":"RAV","textChars":3,"textLines":1,"bbox":[517,119,168,32]}
+{"kind":"textbox","id":"sh/mxw3614b","slide":1,"name":"cohort-1-sample","text":"206 images","textPreview":"206 images","textChars":10,"textLines":1,"bbox":[517,155,168,31]}
+{"kind":"textbox","id":"sh/90n21w3m","slide":1,"name":"cohort-1-roles","text":"Identity audit\nUDCT development","textPreview":"Identity audit | UDCT development","textChars":31,"textLines":2,"bbox":[517,189,168,51]}
+{"kind":"shape","id":"sh/ozel8rm1","slide":1,"name":"cohort-1-accent","bbox":[407,248,278,4]}
+{"kind":"shape","id":"sh/falkvmlk","slide":1,"name":"cohort-2-card","bbox":[724,108,306,150]}
+{"kind":"shape","id":"sh/i5s3eho7","slide":1,"name":"cohort-2-image-border","bbox":[738,122,98,104]}
+{"kind":"textbox","id":"sh/36l47mpc","slide":1,"name":"cohort-2-name","text":"Fundus-AVSeg","textPreview":"Fundus-AVSeg","textChars":12,"textLines":1,"bbox":[848,119,168,32]}
+{"kind":"textbox","id":"sh/47ulgr6x","slide":1,"name":"cohort-2-sample","text":"100 images","textPreview":"100 images","textChars":10,"textLines":1,"bbox":[848,155,168,31]}
+{"kind":"textbox","id":"sh/583m9w7i","slide":1,"name":"cohort-2-roles","text":"Locked A/V\nmeasurement","textPreview":"Locked A/V | measurement","textChars":22,"textLines":2,"bbox":[848,189,168,51]}
+{"kind":"shape","id":"sh/q9c3iho3","slide":1,"name":"cohort-2-accent","bbox":[738,248,278,4]}
+{"kind":"shape","id":"sh/rul4bmpo","slide":1,"name":"cohort-3-card","bbox":[1055,108,306,150]}
+{"kind":"shape","id":"sh/dw3mdw7u","slide":1,"name":"cohort-3-image-border","bbox":[1069,122,98,104]}
+{"kind":"textbox","id":"sh/exwnm1oz","slide":1,"name":"cohort-3-name","text":"China Fundus\nCIMT","textPreview":"China Fundus | CIMT","textChars":17,"textLines":2,"bbox":[1179,114,168,51]}
+{"kind":"textbox","id":"sh/zy54f6pk","slide":1,"name":"cohort-3-sample","text":"2,603 dev\n200 frozen val","textPreview":"2,603 dev | 200 frozen val","textChars":24,"textLines":2,"bbox":[1179,168,168,49]}
+{"kind":"textbox","id":"sh/9s76l0r2","slide":1,"name":"cohort-3-roles","text":"CIMT mechanism","textPreview":"CIMT mechanism","textChars":14,"textLines":1,"bbox":[1179,220,168,22]}
+{"kind":"shape","id":"sh/orypcvqh","slide":1,"name":"cohort-3-accent","bbox":[1069,248,278,4]}
+{"kind":"shape","id":"sh/nqpojq9w","slide":1,"name":"cohort-4-card","bbox":[1386,108,306,150]}
+{"kind":"shape","id":"sh/xw76p0ry","slide":1,"name":"cohort-4-image-border","bbox":[1400,122,98,104]}
+{"kind":"textbox","id":"sh/wvypgfqd","slide":1,"name":"cohort-4-name","text":"mBRSET mirror","textPreview":"mBRSET mirror","textChars":13,"textLines":1,"bbox":[1510,119,168,32]}
+{"kind":"textbox","id":"sh/bupona9s","slide":1,"name":"cohort-4-sample","text":"1,287 participants","textPreview":"1,287 participants","textChars":18,"textLines":1,"bbox":[1510,155,168,31]}
+{"kind":"textbox","id":"sh/atg7e587","slide":1,"name":"cohort-4-roles","text":"Repeatability\nclinical exploration","textPreview":"Repeatability | clinical exploration","textChars":34,"textLines":2,"bbox":[1510,189,168,51]}
+{"kind":"shape","id":"sh/lkrqtkru","slide":1,"name":"cohort-4-accent","bbox":[1400,248,278,4]}
+{"kind":"textbox","id":"sh/kjipkfqp","slide":1,"name":"panel-b","text":"B","textPreview":"B","textChars":1,"textLines":1,"bbox":[62,264,48,58]}
+{"kind":"textbox","id":"sh/gf29cjax","slide":1,"name":"panel-b-title","text":"RMDB–BiRAP phenotype construction","textPreview":"RMDB–BiRAP phenotype construction","textChars":33,"textLines":1,"bbox":[112,270,710,48]}
+{"kind":"textbox","id":"sh/hgvalob2","slide":1,"name":"panel-b-note","text":"matched eye  |  frozen branches  |  outcome-blind gate","textPreview":"matched eye  |  frozen branches  |  outcome-blind gate","textChars":54,"textLines":1,"bbox":[825,282,825,35]}
+{"kind":"shape","id":"sh/udkra9sr","slide":1,"name":"method-panel","bbox":[62,328,1676,415]}
+{"kind":"shape","id":"sh/vetsjetc","slide":1,"name":"stage-divider-0","bbox":[540,370,1.2,342]}
+{"kind":"shape","id":"sh/8r298zal","slide":1,"name":"stage-divider-1","bbox":[1008,370,1.2,342]}
+{"kind":"shape","id":"sh/tsbah4b6","slide":1,"name":"stage-divider-2","bbox":[1342,370,1.2,342]}
+{"kind":"textbox","id":"sh/6pkr69sf","slide":1,"name":"step-1","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[84,339,34,34]}
+{"kind":"textbox","id":"sh/7qtsfet0","slide":1,"name":"step-1-title","text":"Anatomy standardisation","textPreview":"Anatomy standardisation","textChars":23,"textLines":1,"bbox":[126,334,410,44]}
+{"kind":"textbox","id":"sh/sn6tk3ap","slide":1,"name":"step-2","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[563,339,34,34]}
+{"kind":"textbox","id":"sh/dofat8ra","slide":1,"name":"step-2-title","text":"Separate support from identity","textPreview":"Separate support from identity","textChars":30,"textLines":1,"bbox":[605,334,390,44]}
+{"kind":"textbox","id":"sh/ne14z6ho","slide":1,"name":"step-3","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1023,339,34,34]}
+{"kind":"textbox","id":"sh/mts361gj","slide":1,"name":"step-3-title","text":"Dual readouts","textPreview":"Dual readouts","textChars":13,"textLines":1,"bbox":[1065,334,250,44]}
+{"kind":"textbox","id":"sh/9gjm1wzu","slide":1,"name":"step-4","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1358,339,34,34]}
+{"kind":"textbox","id":"sh/8fal8ry9","slide":1,"name":"step-4-title","text":"BiRAP gate","textPreview":"BiRAP gate","textChars":10,"textLines":1,"bbox":[1400,334,260,44]}
+{"kind":"shape","id":"sh/ahs3a1gf","slide":1,"name":"raw-image-border","bbox":[86,385,116,116]}
+{"kind":"shape","id":"sh/wjalcbyl","slide":1,"name":"standardised-image-border","bbox":[224,385,116,116]}
+{"kind":"shape","id":"sh/ql83yhgb","slide":1,"name":"disc-fovea-image-border","bbox":[362,385,116,116]}
+{"kind":"shape","id":"sh/uhw76p0j","slide":1,"name":"raw-to-standardised","bbox":[207,435,22,16]}
+{"kind":"shape","id":"sh/fi5ozuh4","slide":1,"name":"standardised-to-anchor","bbox":[345,435,22,16]}
+{"kind":"textbox","id":"sh/gjyp8fip","slide":1,"name":"raw-label","text":"Raw","textPreview":"Raw","textChars":3,"textLines":1,"bbox":[86,510,116,34]}
+{"kind":"textbox","id":"sh/h4761kza","slide":1,"name":"standardised-label","text":"Standardised","textPreview":"Standardised","textChars":12,"textLines":1,"bbox":[211,510,142,34]}
+{"kind":"textbox","id":"sh/6dw7250n","slide":1,"name":"anchor-label","text":"Disc–fovea","textPreview":"Disc–fovea","textChars":10,"textLines":1,"bbox":[355,510,130,34]}
+{"kind":"textbox","id":"sh/7e5ova18","slide":1,"name":"coordinate-first","text":"Coordinate first\nphenotype second","textPreview":"Coordinate first | phenotype second","textChars":33,"textLines":2,"bbox":[86,574,390,80]}
+{"kind":"textbox","id":"sh/sfep4fit","slide":1,"name":"raw-warning","text":"No phenotype is calculated from raw I alone.","textPreview":"No phenotype is calculated from raw I alone.","textChars":44,"textLines":1,"bbox":[86,669,400,34]}
+{"kind":"shape","id":"sh/tgn6xkze","slide":1,"name":"identity-card","bbox":[565,380,430,145]}
+{"kind":"shape","id":"sh/jalora1w","slide":1,"name":"identity-map-border","bbox":[582,397,112,112]}
+{"kind":"textbox","id":"sh/14bax8je","slide":1,"name":"identity-pill","text":"IDENTITY","textPreview":"IDENTITY","textChars":8,"textLines":1,"bbox":[712,395,145,36]}
+{"kind":"textbox","id":"sh/03294329","slide":1,"name":"identity-model","text":"VascX + UDCT ×2","textPreview":"VascX + UDCT ×2","textChars":15,"textLines":1,"bbox":[712,444,260,38]}
+{"kind":"textbox","id":"sh/z2tsvy1o","slide":1,"name":"identity-formula","text":"P(A,V,C | I*)","textPreview":"P(A,V,C | I*)","textChars":13,"textLines":1,"bbox":[712,484,260,35]}
+{"kind":"shape","id":"sh/e10r2tk3","slide":1,"name":"occupancy-card","bbox":[565,550,430,145]}
+{"kind":"shape","id":"sh/czi90j2x","slide":1,"name":"occupancy-map-border","bbox":[582,567,112,112]}
+{"kind":"textbox","id":"sh/ry9sre1c","slide":1,"name":"occupancy-pill","text":"OCCUPANCY","textPreview":"OCCUPANCY","textChars":9,"textLines":1,"bbox":[712,565,175,36]}
+{"kind":"textbox","id":"sh/qd0rytkr","slide":1,"name":"occupancy-model","text":"Frozen FIVES head","textPreview":"Frozen FIVES head","textChars":17,"textLines":1,"bbox":[712,614,260,38]}
+{"kind":"textbox","id":"sh/pcrq5o3m","slide":1,"name":"occupancy-formula","text":"P(vessel | I*)","textPreview":"P(vessel | I*)","textChars":14,"textLines":1,"bbox":[712,654,260,35]}
+{"kind":"shape","id":"sh/4bi9wj21","slide":1,"name":"anchor-to-branches","bbox":[500,510,46,20]}
+{"kind":"shape","id":"sh/gbaxoze9","slide":1,"name":"branch-split","bbox":[550,451,2,170]}
+{"kind":"shape","id":"sh/1cjehkvu","slide":1,"name":"split-to-identity","bbox":[548,444,18,16]}
+{"kind":"shape","id":"sh/e9sfmpw3","slide":1,"name":"split-to-occupancy","bbox":[548,614,18,16]}
+{"kind":"shape","id":"sh/fa1wfudo","slide":1,"name":"mass-card","bbox":[1025,380,300,145]}
+{"kind":"shape","id":"sh/pg3el4vq","slide":1,"name":"mass-map-border","bbox":[1042,397,104,112]}
+{"kind":"textbox","id":"sh/2dcfqpwf","slide":1,"name":"mass-title","text":"Mass-UDCT","textPreview":"Mass-UDCT","textChars":9,"textLines":1,"bbox":[1160,410,150,34]}
+{"kind":"textbox","id":"sh/3elwjudk","slide":1,"name":"mass-formula","text":"M = P(A,V,C | I*)","textPreview":"M = P(A,V,C | I*)","textChars":17,"textLines":1,"bbox":[1160,452,150,32]}
+{"kind":"textbox","id":"sh/cjuxwjeh","slide":1,"name":"mass-note","text":"mass retained","textPreview":"mass retained","textChars":13,"textLines":1,"bbox":[1160,487,150,28]}
+{"kind":"shape","id":"sh/d4nep4v2","slide":1,"name":"factor-card","bbox":[1025,550,300,145]}
+{"kind":"shape","id":"sh/mdgzmdgj","slide":1,"name":"factor-map-border","bbox":[1042,567,104,112]}
+{"kind":"textbox","id":"sh/907ih8fa","slide":1,"name":"factor-title","text":"Factorized-UDCT","textPreview":"Factorized-UDCT","textChars":15,"textLines":1,"bbox":[1160,580,155,34]}
+{"kind":"textbox","id":"sh/8zyho3yp","slide":1,"name":"factor-formula","text":"F = O × P(identity)","textPreview":"F = O × P(identity)","textChars":19,"textLines":1,"bbox":[1160,622,155,32]}
+{"kind":"textbox","id":"sh/za5gbyxs","slide":1,"name":"factor-note","text":"support gated","textPreview":"support gated","textChars":13,"textLines":1,"bbox":[1160,657,150,28]}
+{"kind":"shape","id":"sh/y9wzitgn","slide":1,"name":"identity-to-mass","bbox":[997,444,22,17]}
+{"kind":"shape","id":"sh/lc7id8fy","slide":1,"name":"occupancy-to-factor","bbox":[997,614,22,17]}
+{"kind":"shape","id":"sh/0behk3yd","slide":1,"name":"identity-factor-elbow-v","bbox":[1006,485,2,91]}
+{"kind":"shape","id":"sh/j690n2xc","slide":1,"name":"identity-factor-elbow-h","bbox":[988,485,20,2]}
+{"kind":"shape","id":"sh/i50zuxgr","slide":1,"name":"identity-to-factor","bbox":[1002,568,18,16]}
+{"kind":"shape","id":"sh/ry1sn2xk","slide":1,"name":"gate-0","bbox":[1360,390,345,70]}
+{"kind":"textbox","id":"sh/qxsruxgz","slide":1,"name":"gate-0-a","text":"9 prespecified","textPreview":"9 prespecified","textChars":14,"textLines":1,"bbox":[1380,397,305,33]}
+{"kind":"textbox","id":"sh/dkjapcfq","slide":1,"name":"gate-0-b","text":"eye-level phenotypes","textPreview":"eye-level phenotypes","textChars":20,"textLines":1,"bbox":[1380,429,305,25]}
+{"kind":"shape","id":"sh/cza9w7y5","slide":1,"name":"gate-down-0","bbox":[1522,461,20,16]}
+{"kind":"shape","id":"sh/zm1srmxw","slide":1,"name":"gate-1","bbox":[1360,480,345,70]}
+{"kind":"textbox","id":"sh/elsryhgb","slide":1,"name":"gate-1-a","text":"ICC(1,1) ≥ 0.60","textPreview":"ICC(1,1) ≥ 0.60","textChars":15,"textLines":1,"bbox":[1380,487,305,33]}
+{"kind":"textbox","id":"sh/1o3atwfm","slide":1,"name":"gate-1-b","text":"same-eye, outcome-blind","textPreview":"same-eye, outcome-blind","textChars":23,"textLines":1,"bbox":[1380,519,305,25]}
+{"kind":"shape","id":"sh/0na90ryh","slide":1,"name":"gate-down-1","bbox":[1522,551,20,16]}
+{"kind":"shape","id":"sh/fqh8fixc","slide":1,"name":"gate-2","bbox":[1360,570,345,70]}
+{"kind":"textbox","id":"sh/up8rmdg7","slide":1,"name":"gate-2-a","text":"4-feature core","textPreview":"4-feature core","textChars":14,"textLines":1,"bbox":[1380,577,305,33]}
+{"kind":"textbox","id":"sh/kj2x0zad","slide":1,"name":"gate-2-b","text":"retained before labels","textPreview":"retained before labels","textChars":22,"textLines":1,"bbox":[1380,609,305,25]}
+{"kind":"shape","id":"sh/lkvy94ry","slide":1,"name":"gate-down-2","bbox":[1522,641,20,16]}
+{"kind":"shape","id":"sh/yxkfypsn","slide":1,"name":"gate-3","bbox":[1360,660,345,70]}
+{"kind":"textbox","id":"sh/zytg7u98","slide":1,"name":"gate-3-a","text":"Patient vector","textPreview":"Patient vector","textChars":14,"textLines":1,"bbox":[1380,667,305,33]}
+{"kind":"textbox","id":"sh/cv2xwfah","slide":1,"name":"gate-3-b","text":"bilateral grouped summary","textPreview":"bilateral grouped summary","textChars":25,"textLines":1,"bbox":[1380,699,305,25]}
+{"kind":"shape","id":"sh/xwby5kr2","slide":1,"name":"mass-to-gate","bbox":[1328,427,27,18]}
+{"kind":"shape","id":"sh/atkfu5sb","slide":1,"name":"factor-to-gate","bbox":[1328,596,27,18]}
+{"kind":"textbox","id":"sh/butw3a9w","slide":1,"name":"panel-c","text":"C","textPreview":"C","textChars":1,"textLines":1,"bbox":[62,749,48,58]}
+{"kind":"textbox","id":"sh/gr6x8jal","slide":1,"name":"panel-c-title","text":"Four distinct evidence claims","textPreview":"Four distinct evidence claims","textChars":29,"textLines":1,"bbox":[112,755,540,45]}
+{"kind":"textbox","id":"sh/hsfyhor6","slide":1,"name":"panel-c-note","text":"Parallel interpretations, not a universal sequential checklist","textPreview":"Parallel interpretations, not a universal sequential checklist","textChars":62,"textLines":1,"bbox":[650,765,1010,38]}
+{"kind":"shape","id":"sh/p8by14ja","slide":1,"name":"evidence-rail","bbox":[250,822,1300,2]}
+{"kind":"shape","id":"sh/472xsj2p","slide":1,"name":"evidence-drop-0","bbox":[246,822,2,18]}
+{"kind":"shape","id":"sh/36tgze1k","slide":1,"name":"evidence-arrow-0","bbox":[238,833,18,14]}
+{"kind":"shape","id":"sh/250fq9kz","slide":1,"name":"evidence-drop-1","bbox":[681,822,2,18]}
+{"kind":"shape","id":"sh/h4rex4je","slide":1,"name":"evidence-arrow-1","bbox":[673,833,18,14]}
+{"kind":"shape","id":"sh/g3ixoz2t","slide":1,"name":"evidence-drop-2","bbox":[1116,822,2,18]}
+{"kind":"shape","id":"sh/fi9wvu18","slide":1,"name":"evidence-arrow-2","bbox":[1108,833,18,14]}
+{"kind":"shape","id":"sh/uh0fmpkn","slide":1,"name":"evidence-drop-3","bbox":[1551,822,2,18]}
+{"kind":"shape","id":"sh/tgretkj2","slide":1,"name":"evidence-arrow-3","bbox":[1543,833,18,14]}
+{"kind":"shape","id":"sh/sfixkz2x","slide":1,"name":"evidence-0","bbox":[62,843,371,158]}
+{"kind":"shape","id":"sh/ylwvul0f","slide":1,"name":"evidence-0-accent","bbox":[62,859,5,126]}
+{"kind":"textbox","id":"sh/jm5cnqh0","slide":1,"name":"evidence-0-title","text":"MEASUREMENT","textPreview":"MEASUREMENT","textChars":11,"textLines":1,"bbox":[84,855,330,39]}
+{"kind":"textbox","id":"sh/knydwvil","slide":1,"name":"evidence-0-status","text":"SUPPORTED","textPreview":"SUPPORTED","textChars":9,"textLines":1,"bbox":[287,889,125,29]}
+{"kind":"textbox","id":"sh/lo7up0z6","slide":1,"name":"evidence-0-metric1","text":"RAV mean A/V Dice 0.8256","textPreview":"RAV mean A/V Dice 0.8256","textChars":24,"textLines":1,"bbox":[84,927,330,34]}
+{"kind":"textbox","id":"sh/ahwbql0j","slide":1,"name":"evidence-0-metric2","text":"Fundus-AVSeg ΔDice +0.0090","textPreview":"Fundus-AVSeg ΔDice +0.0090","textChars":26,"textLines":1,"bbox":[84,967,330,30]}
+{"kind":"shape","id":"sh/bi5cjqh4","slide":1,"name":"evidence-1","bbox":[497,843,371,158]}
+{"kind":"shape","id":"sh/wjedsvip","slide":1,"name":"evidence-1-accent","bbox":[497,859,5,126]}
+{"kind":"textbox","id":"sh/xknul0zu","slide":1,"name":"evidence-1-title","text":"REPEATABILITY","textPreview":"REPEATABILITY","textChars":13,"textLines":1,"bbox":[519,855,330,39]}
+{"kind":"textbox","id":"sh/mtcbm107","slide":1,"name":"evidence-1-status","text":"SUPPORTED","textPreview":"SUPPORTED","textChars":9,"textLines":1,"bbox":[722,889,125,29]}
+{"kind":"textbox","id":"sh/nelcf6hs","slide":1,"name":"evidence-1-metric1","text":"2,359 same-eye pairs","textPreview":"2,359 same-eye pairs","textChars":20,"textLines":1,"bbox":[519,927,330,34]}
+{"kind":"textbox","id":"sh/f658rmlo","slide":1,"name":"evidence-1-metric2","text":"4 of 9 phenotypes retained","textPreview":"4 of 9 phenotypes retained","textChars":26,"textLines":1,"bbox":[519,967,330,30]}
+{"kind":"shape","id":"sh/e5wryh43","slide":1,"name":"evidence-2","bbox":[932,843,371,158]}
+{"kind":"shape","id":"sh/187qtc3u","slide":1,"name":"evidence-2-accent","bbox":[932,859,5,126]}
+{"kind":"textbox","id":"sh/07e90rm9","slide":1,"name":"evidence-2-title","text":"TRANSPORT","textPreview":"TRANSPORT","textChars":9,"textLines":1,"bbox":[954,855,330,39]}
+{"kind":"textbox","id":"sh/r258n2lc","slide":1,"name":"evidence-2-status","text":"BOUNDARY","textPreview":"BOUNDARY","textChars":8,"textLines":1,"bbox":[1170,889,112,29]}
+{"kind":"textbox","id":"sh/q1wrux47","slide":1,"name":"evidence-2-metric1","text":"Cohort AUROC 0.866-0.996","textPreview":"Cohort AUROC 0.866-0.996","textChars":24,"textLines":1,"bbox":[954,927,330,34]}
+{"kind":"textbox","id":"sh/d4nqpc3i","slide":1,"name":"evidence-2-metric2","text":"Naive pooling prohibited","textPreview":"Naive pooling prohibited","textChars":24,"textLines":1,"bbox":[954,967,330,30]}
+{"kind":"shape","id":"sh/s3e9w7mx","slide":1,"name":"evidence-3","bbox":[1367,843,371,158]}
+{"kind":"shape","id":"sh/3el8j2lg","slide":1,"name":"evidence-3-accent","bbox":[1367,859,5,126]}
+{"kind":"textbox","id":"sh/idc7qx4v","slide":1,"name":"evidence-3-title","text":"CLINICAL INCREMENT","textPreview":"CLINICAL INCREMENT","textChars":18,"textLines":1,"bbox":[1389,855,330,39]}
+{"kind":"textbox","id":"sh/8ja5032t","slide":1,"name":"evidence-3-status","text":"UNCONFIRMED","textPreview":"UNCONFIRMED","textChars":11,"textLines":1,"bbox":[1577,889,140,29]}
+{"kind":"textbox","id":"sh/tkj6t8je","slide":1,"name":"evidence-3-metric1","text":"mBRSET ΔAUROC +0.00188","textPreview":"mBRSET ΔAUROC +0.00188","textChars":22,"textLines":1,"bbox":[1389,927,330,34]}
+{"kind":"textbox","id":"sh/6h8nytkn","slide":1,"name":"evidence-3-metric2","text":"No independent high-res cohort","textPreview":"No independent high-res cohort","textChars":30,"textLines":1,"bbox":[1389,967,330,30]}
+{"kind":"image","id":"im/qlc32ls3","slide":1,"name":"","geometry":"roundRect","alt":"cohort-0-image","bbox":[76,122,98,104]}
+{"kind":"image","id":"im/6dcbmp4v","slide":1,"name":"","geometry":"roundRect","alt":"cohort-1-image","bbox":[407,122,98,104]}
+{"kind":"image","id":"im/p8nu543e","slide":1,"name":"","geometry":"roundRect","alt":"cohort-2-image","bbox":[738,122,98,104]}
+{"kind":"image","id":"im/3mhknq94","slide":1,"name":"","geometry":"roundRect","alt":"cohort-3-image","bbox":[1069,122,98,104]}
+{"kind":"image","id":"im/tsvixw72","slide":1,"name":"","geometry":"roundRect","alt":"cohort-4-image","bbox":[1400,122,98,104]}
+{"kind":"image","id":"im/4ritwza1","slide":1,"name":"","geometry":"roundRect","alt":"raw-image","bbox":[86,385,116,116]}
+{"kind":"image","id":"im/ip0bu9sv","slide":1,"name":"","geometry":"roundRect","alt":"standardised-image","bbox":[224,385,116,116]}
+{"kind":"image","id":"im/kvetkfah","slide":1,"name":"","geometry":"roundRect","alt":"disc-fovea-image","bbox":[362,385,116,116]}
+{"kind":"image","id":"im/x8zi9wf2","slide":1,"name":"","geometry":"roundRect","alt":"identity-map","bbox":[582,397,112,112]}
+{"kind":"image","id":"im/ihkfetwv","slide":1,"name":"","geometry":"roundRect","alt":"occupancy-map","bbox":[582,567,112,112]}
+{"kind":"image","id":"im/z2tcbuh4","slide":1,"name":"","geometry":"roundRect","alt":"mass-map","bbox":[1042,397,104,112]}
+{"kind":"image","id":"im/4bmtwzyt","slide":1,"name":"","geometry":"roundRect","alt":"factor-map","bbox":[1042,567,104,112]}
+{"kind":"notes","id":"nt/qubw9i","slide":1,"text":"[Sources]\n/Users/tongyue/Documents/ppf/papers/RMDB/paper/figures/Figure1_refined_source_manifest.csv\n/Users/tongyue/Documents/ppf/papers/RMDB/protocols/RMDB_BiRAP_forward_reverse_results_20260821.md\n/Users/tongyue/Documents/ppf/papers/RMDB/paper/FINAL_QC_REPORT.md\nAll retinal photographs and processed maps are embedded from the local manuscript asset archive."}

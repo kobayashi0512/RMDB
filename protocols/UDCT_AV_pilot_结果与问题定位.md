@@ -76,7 +76,7 @@ UDCT-AV 能够纠正“已被检测为血管的像素属于动脉还是静脉”
 
 最终概率分解为：
 
-`P(A)=P(vessel)·P(A|vessel)`  
+`P(A)=P(vessel)·P(A|vessel)`
 `P(V)=P(vessel)·P(V|vessel)`
 
 并分别传播两类不确定性：

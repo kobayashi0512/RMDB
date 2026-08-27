@@ -237,4 +237,3 @@ Reliable retinal microvascular phenotyping should be treated as a measurement an
 这条叙事比“又一个眼底预测模型”更适合方法学期刊，因为文章的贡献不是单一 AUROC，而是揭示了一个常被忽略的失败机制：
 
 > **未经测量审计的血管细节，可能增加模型复杂度，却降低真实世界可信度。**
-
