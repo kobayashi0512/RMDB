@@ -64,4 +64,4 @@ Citation metadata are provided in `CITATION.cff`. Until peer review is complete,
 
 ## Licence and third party components
 
-No blanket relicensing of third party datasets, pretrained weights, or dependencies is implied. Each dataset and dependency remains under its original terms. Project source is currently shared for research review in this private repository; an explicit public source licence should be selected before making the repository public.
+No blanket relicensing of third party datasets, pretrained weights, or dependencies is implied. Each dataset and dependency remains under its original terms. The repository is publicly visible. Public visibility does not grant a source-code licence; no project-wide open-source licence is supplied, and reuse rights remain subject to the source authorship and third-party terms. Dataset, model, and dependency assets retain their own terms; RAV is non-commercial, and controlled-access mBRSET is not mirrored.
