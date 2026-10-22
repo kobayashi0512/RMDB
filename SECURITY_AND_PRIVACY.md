@@ -2,11 +2,11 @@
 
 The Git history must not contain patient level prediction tables, private access tokens, credentials, signed data use agreements, or controlled access image data.
 
-Before any public release:
+For future changes to this publicly visible repository:
 
-1. replace all author and ethics placeholders in the manuscript;
-2. select an explicit source code licence;
-3. rerun secret scanning and patient level identifier scanning;
-4. confirm every release asset against the dataset licence current at the original source;
-5. keep mBRSET, MESA, ARIC, and any other controlled access resource outside the repository.
+1. keep author, ethics, and submission-status text accurate in manuscript updates;
+2. do not add a source-code licence without an explicit rights decision;
+3. run secret and patient-level identifier scans on changed files and release assets;
+4. confirm each new or replaced release asset against current original-source terms;
+5. keep mBRSET, MESA, ARIC, and other controlled-access resources outside the repository.
 
